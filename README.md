@@ -24,6 +24,9 @@ This repository exists as a canonical identity and reference point.
 - Machine-readable profile  
   https://ryanw.eu/llms.txt
 
+- X.com (Formally Twitter)
+  https://x.com/ryanw_product
+
 ## Location
 Dublin, Ireland
 
