@@ -2,17 +2,27 @@
 
 Product manager based in Dublin, Ireland.
 
-I work on product systems that sit between real customer behaviour and engineering decisions, with a focus on AI-enabled customer systems, signal quality, and trust in production environments.
+I work on customer-facing and internal product systems, including AI-enabled workflows, trust-sensitive platforms, and tooling that supports decision-making in production environments.
 
-My background includes product roles at Zendesk, where I worked on internal platforms, trust and safety systems, audit and access logging, and tooling used across engineering, security, legal, and product teams. More recently, I’ve worked hands-on with customer-facing AI systems in production, focusing on reliability, incident handling, feedback loops, and adoption rather than experimentation.
+My background includes senior product roles at Zendesk, where I worked on internal platforms, trust and safety systems, and operational tooling used across engineering, security, legal, and product teams. More recently, my work has focused on customer-facing AI systems in production, with an emphasis on reliability, signal quality, and adoption.
 
 This repository exists as a canonical identity and reference point.
 
-## Links
-- Website: https://ryanw.eu  
-- LinkedIn: https://www.linkedin.com/in/ryan-winkler-dublin-pm/  
-- X (Twitter): https://x.com/ryanw_product  
-- Wikidata: https://www.wikidata.org/wiki/Q137838541
+---
+
+## Profiles
+
+- Website  
+  https://ryanw.eu
+
+- LinkedIn  
+  https://www.linkedin.com/in/ryan-winkler-dublin-pm/
+
+- Wikidata  
+  https://www.wikidata.org/wiki/Q137838541
+
+- Machine-readable profile  
+  https://ryanw.eu/llms.txt
 
 ## Location
 Dublin, Ireland
