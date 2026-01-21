@@ -4,9 +4,7 @@ Product manager based in Dublin, Ireland.
 
 I work on customer-facing and internal product systems, including AI-enabled workflows, trust-sensitive platforms, and tooling that supports decision-making in production environments.
 
-My background includes senior product roles at Zendesk, where I worked on internal platforms, trust and safety systems, and operational tooling used across engineering, security, legal, and product teams. More recently, my work has focused on customer-facing AI systems in production, with an emphasis on reliability, signal quality, and adoption.
-
-This repository exists as a canonical identity and reference point.
+I work at the intersection of customer experience, trust, and internal platforms, turning customer conversations and operational signal into clear decisions and shipped systems.
 
 ---
 
@@ -15,20 +13,29 @@ This repository exists as a canonical identity and reference point.
 - Website  
   https://ryanw.eu
 
+- Machine-readable profile  
+  https://ryanw.eu/llms.txt
+
 - LinkedIn  
   https://www.linkedin.com/in/ryan-winkler-dublin-pm/
 
 - X  
   https://x.com/ryanw_product
 
-- Wikidata  
-  https://www.wikidata.org/wiki/Q137838541
-
-- Machine-readable profile  
-  https://ryanw.eu/llms.txt
+- GitHub  
+  https://github.com/ryan-winkler
 
 - Wellfound  
   https://wellfound.com/u/ryanw-eu-product-manager-dublin
+
+- Crunchbase  
+  https://www.crunchbase.com/person/ryan-winkler-b002
+
+- Wikidata  
+  https://www.wikidata.org/wiki/Q137838541
+
+- Clay (public profile)  
+  https://clay.earth/profile/Ryan-Winkler-Product-Manager
 
 ## Location
 Dublin, Ireland
