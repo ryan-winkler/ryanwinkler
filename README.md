@@ -27,6 +27,8 @@ This repository exists as a canonical identity and reference point.
 - Machine-readable profile  
   https://ryanw.eu/llms.txt
 
+- Wellfound  
+  https://wellfound.com/u/ryanw-eu-product-manager-dublin
 
 ## Location
 Dublin, Ireland
