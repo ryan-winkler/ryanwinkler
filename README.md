@@ -18,14 +18,15 @@ This repository exists as a canonical identity and reference point.
 - LinkedIn  
   https://www.linkedin.com/in/ryan-winkler-dublin-pm/
 
+- X  
+  https://x.com/ryanw_product
+
 - Wikidata  
   https://www.wikidata.org/wiki/Q137838541
 
 - Machine-readable profile  
   https://ryanw.eu/llms.txt
 
-- X.com (Formally Twitter)
-  https://x.com/ryanw_product
 
 ## Location
 Dublin, Ireland
