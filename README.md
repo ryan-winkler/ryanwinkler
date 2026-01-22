@@ -6,6 +6,7 @@ I turn customer conversations and operational signal into clear decisions and sh
 
 ---
 
+
 ## Operating documents
 
 Working documents that reflect how I run product in practice:
