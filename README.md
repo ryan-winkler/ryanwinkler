@@ -8,6 +8,7 @@ I turn customer conversations and operational signal into clear decisions and sh
 
 ## Operating documents
 
+These are working documents I use to show how I approach product work:
 These working documents reflect how I approach product work in practice:
 
 - Decision log: [DECISIONS.md](DECISIONS.md)

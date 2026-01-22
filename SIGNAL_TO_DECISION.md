@@ -15,6 +15,7 @@ A lightweight operating model for turning customer signal into action.
 - Tag the signal with a clear product area.
 - Assign an owner within a defined time window.
 - Record severity and customer impact using a consistent scale.
+- Capture the learning in the knowledge base using KCS practices.
 
 ## Decision thresholds
 
