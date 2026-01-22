@@ -11,6 +11,7 @@ Entries are short and written for future readers.
 - Decision
 - Why
 - Trade-offs
+- Scoring / prioritisation (if applicable)
 - Follow-ups
 
 ## Template
@@ -35,6 +36,9 @@ Entries are short and written for future readers.
 
 **Trade-offs**
 - 
+
+**Scoring / prioritisation (if applicable)**
+- Link to [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) scorecard or summary.
 
 **Follow-ups**
 - 

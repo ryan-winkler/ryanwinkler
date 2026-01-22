@@ -1,3 +1,5 @@
+Start here → [START_HERE.md](START_HERE.md)
+
 # Ryan Winkler
 
 Product manager based in Dublin, Ireland.
@@ -6,12 +8,29 @@ I turn customer conversations and operational signal into clear decisions and sh
 
 ---
 
+## Table of contents
+
+- [START_HERE.md](START_HERE.md)
+- [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md)
+- [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md)
+- [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md)
+- [DOMAIN_MAP.md](DOMAIN_MAP.md)
+- [DECISIONS.md](DECISIONS.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md)
+- [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md)
+- [HOW_I_WORK.md](HOW_I_WORK.md)
+- [templates/](templates/)
+- [NOW.md](NOW.md)
+- [DISCLAIMER.md](DISCLAIMER.md)
+
+---
 
 ## Operating documents
 
 Working documents that reflect how I run product in practice:
 
 - Decision log: [DECISIONS.md](DECISIONS.md)
+- Scoring and prioritisation: [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md)
 - System boundaries and failure modes: [ARCHITECTURE.md](ARCHITECTURE.md)
 - Ways of working: [HOW_I_WORK.md](HOW_I_WORK.md)
 - Signal intake and triage: [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md)
@@ -21,44 +40,30 @@ Working documents that reflect how I run product in practice:
 
 ## Profiles
 
-- Website  
-  https://ryanw.eu
-
-- Machine-readable profile  
-  https://ryanw.eu/llms.txt
-
-- LinkedIn  
-  https://www.linkedin.com/in/ryan-winkler-dublin-pm/
-
-- X  
-  https://x.com/ryanw_product
-
-- GitHub  
-  https://github.com/ryan-winkler
-
-- Wellfound  
-  https://wellfound.com/u/ryanw-eu-product-manager-dublin
-
-- Crunchbase  
-  https://www.crunchbase.com/person/ryan-winkler-b002
-
-- Wikidata  
-  https://www.wikidata.org/wiki/Q137838541
-
-- Clay (public profile)  
-  https://clay.earth/profile/Ryan-Winkler-Product-Manager
+- [Website](https://ryanw.eu)
+- [Machine-readable profile](https://ryanw.eu/llms.txt)
+- [LinkedIn](https://www.linkedin.com/in/ryan-winkler-dublin-pm/)
+- [X](https://x.com/ryanw_product)
+- [GitHub](https://github.com/ryan-winkler)
+- [Wellfound](https://wellfound.com/u/ryanw-eu-product-manager-dublin)
+- [Crunchbase](https://www.crunchbase.com/person/ryan-winkler-b002)
+- [Wikidata](https://www.wikidata.org/wiki/Q137838541)
+- [Clay (public profile)](https://clay.earth/profile/Ryan-Winkler-Product-Manager)
 
 ## Location
+
 Dublin, Ireland
 
 ---
 
 ## How I work
 
-- Everything is a signal: conversations, incidents, and edge cases inform product decisions.
-- Knowledge is part of the product surface (KCS mindset).
-- Domain-driven thinking to clarify ownership, language, and system boundaries.
-- Preference for runbooks, decision logs, and feedback loops over status meetings.
+- I write decisions down and keep them easy to find.
+- I treat signal quality as a product problem.
+- I prioritise runbooks and feedback loops over status meetings.
+- I clarify system boundaries and ownership early.
+
+More detail in [HOW_I_WORK.md](HOW_I_WORK.md).
 
 ---
 
