@@ -1,5 +1,6 @@
 # System architecture notes
 
+This document captures how I set boundaries and design for operation.
 This document sets boundaries for how I think about product systems.
 It is intentionally high level and portable.
 
@@ -9,6 +10,13 @@ It is intentionally high level and portable.
 - Normalise inputs so they can be compared across tools.
 - Assign ownership early to avoid stalled decisions.
 - Close the loop by showing how decisions change the system.
+- Track impact across the full customer journey, not just a single touchpoint.
+
+## Domain boundaries
+
+- Use Domain Driven Design to define core domains, supporting domains, and shared language.
+- Agree a system of record for each domain.
+- Treat ownership as a product decision, not a staffing detail.
 
 ## AI in production: guardrails over cleverness
 
