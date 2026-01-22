@@ -38,21 +38,6 @@ Measure what the system does and what users do after it acts.
 - Trust grows when the model is predictable and transparent about limits.
 - Human override is a feature, not a failure.
 
-## Exploratory pattern: inference efficiency + behavioural abuse signals
-
-In production, inference efficiency shows up as a product and CX problem. Distributed inference on consumer-grade GPUs can create uneven latency, repeated work, and higher support load when behaviour is inconsistent. These are not just engineering details; they change how users judge reliability.
-
-Long-context usage and KV cache behaviour are practical constraints that shape how the product feels. They affect tail latency, cost predictability, and how often the system can safely reuse past work without confusing the user.
-
-Lightweight similarity or fingerprinting techniques (for example, Nilsimsa-style approaches) can help with routing, dedupe, and caching. They are not security magic. Temporal and behavioural signals can act as early warning indicators for abuse patterns, not guarantees.
-
-Observed leverage points (conceptual):
-- Request shaping to reduce repeated work.
-- Routing based on similarity and context size.
-- Cache policies aligned to user-visible behaviour.
-- Guardrails that degrade gracefully under load.
-- Early warning flags from temporal and behavioural patterns.
-
 ### Pre-launch minimum bar
 
 - [ ] Guardrails are documented and enforced.
