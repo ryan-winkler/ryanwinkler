@@ -1,6 +1,7 @@
 # System architecture notes
 
 This document captures how I set boundaries and design for operation.
+This document sets boundaries for how I think about product systems.
 It is intentionally high level and portable.
 
 ## Customer signal pipeline
