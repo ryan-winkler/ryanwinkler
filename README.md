@@ -1,10 +1,20 @@
 # Ryan Winkler
 
 Product manager based in Dublin, Ireland.
+I build customer-facing and internal systems, including AI-enabled workflows, trust-sensitive platforms, and tooling for decision-making in production.
+I turn customer conversations and operational signal into clear decisions and shipped systems.
 
-I work on customer-facing and internal product systems, including AI-enabled workflows, trust-sensitive platforms, and tooling that supports decision-making in production environments.
+---
 
-I work at the intersection of customer experience, trust, and internal platforms, turning customer conversations and operational signal into clear decisions and shipped systems.
+## Operating documents
+
+These are working documents I use to show how I approach product work:
+
+- Decision log: [DECISIONS.md](DECISIONS.md)
+- System boundaries and failure modes: [ARCHITECTURE.md](ARCHITECTURE.md)
+- Ways of working: [HOW_I_WORK.md](HOW_I_WORK.md)
+- Signal intake and triage: [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md)
+- Current focus: [NOW.md](NOW.md)
 
 ---
 
