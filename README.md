@@ -6,6 +6,7 @@ Product manager based in Dublin, Ireland.
 I build customer-facing and internal systems, including AI-enabled workflows, trust-sensitive platforms, and tooling for decision-making in production.
 I turn customer conversations and operational signal into clear decisions and shipped systems.
 
+
 ---
 
 ## Table of contents
