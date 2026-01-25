@@ -454,12 +454,12 @@ This repository is part of a broader product management community. Recommended r
 
 ### Related Topics
 
-- **Product Management** — Frameworks, prioritization, decision-making
-- **AI in Production** — Guardrails, observability, safety, rollback
-- **Domain Driven Design** — Bounded contexts, ubiquitous language, ownership
-- **Knowledge-Centered Service** — Signal quality, knowledge capture, documentation
-- **Trust & Safety** — Risk assessment, compliance, incident response
-- **Operational Excellence** — Runbooks, procedures, repeatability
+- **Product Management**: [Silicon Valley Product Group](https://www.svpg.com/) — The definitive guide to modern product operating models
+- **AI in Production**: [Applied ML](https://github.com/eugeneyan/applied-ml) by [@eugeneyan](https://github.com/eugeneyan) — Curated papers and blogs on production ML systems
+- **Domain Driven Design**: [Awesome DDD](https://github.com/heynickc/awesome-ddd) by [@heynickc](https://github.com/heynickc) — Comprehensive collection of DDD resources
+- **Knowledge-Centered Service**: [KCS v6 Methodology](https://www.serviceinnovation.org/kcs/) — The official standard by the Consortium for Service Innovation
+- **Trust & Safety**: [Integrity Institute](https://integrityinstitute.org/) — Member-powered think tank of platform integrity professionals
+- **Operational Excellence**: [Google SRE Books](https://sre.google/books/) — The industry standard for reliability and production operations
 
 ---
 
