@@ -19,12 +19,6 @@ Short, operational behaviours that guide my day to day work.
 
 - I work in a KCS mindset: capture, reuse, and improve knowledge in the flow of work.
 
-## Ownership and boundaries
-
-- I clarify system boundaries early.
-- I prefer explicit ownership over shared responsibility.
-- I keep language consistent across teams and tools.
-
 ## Feedback loops
 
 - I set feedback loops before I ship.

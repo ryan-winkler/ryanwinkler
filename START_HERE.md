@@ -16,7 +16,7 @@
 **I want to**:
 
 - [Browse by topic](index/README.md) — Organized content index
-- [Search for something](SEARCH.md) — Grep examples and search guide
+- [Search for something](docs/SEARCH.md) — Grep examples and search guide
 - [See the big picture](README.md) — Full README with everything
 
 ---
@@ -24,12 +24,12 @@
 ## 📚 Core Documents (Start Here)
 
 | Document | What It Covers | Time to Read |
-|----------|---------------|--------------|
+| :--- | :--- | :--- |
 | [README.md](README.md) | Complete overview, structure, navigation | 5 min |
-| [HOW_I_WORK.md](HOW_I_WORK.md) | Operating principles and habits | 3 min |
-| [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) | AI production framework | 4 min |
-| [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) | RICE/DRICE prioritization | 3 min |
-| [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) | Signal intake process | 2 min |
+| [HOW_I_WORK.md](core/HOW_I_WORK.md) | Operating principles and habits | 3 min |
+| [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) | AI production framework | 4 min |
+| [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) | RICE/DRICE prioritization | 3 min |
+| [SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) | Signal intake process | 2 min |
 
 ---
 
@@ -39,7 +39,7 @@
 
 **Read** (10 min):
 
-- [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — My framework for AI in production
+- [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) — My framework for AI in production
 - [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — Pre-launch checklist
 - [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — Why guardrails matter
 
@@ -61,8 +61,8 @@ grep -r "guardrails\|observability\|rollback" runbooks/ insights/
 
 **Read** (8 min):
 
-- [ARCHITECTURE.md](ARCHITECTURE.md) — System boundaries and failure modes
-- [DECISIONS.md](DECISIONS.md) — Decision log with rationale
+- [ARCHITECTURE.md](core/ARCHITECTURE.md) — System boundaries and failure modes
+- [DECISIONS.md](core/DECISIONS.md) — Decision log with rationale
 - [templates/template_incident_review.md](templates/template_incident_review.md) — Postmortem template
 
 **What you'll see**:
@@ -83,8 +83,8 @@ grep -r "risk\|compliance\|incident" templates/ runbooks/
 
 **Read** (8 min):
 
-- [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — Signal intake and triage
-- [DOMAIN_MAP.md](DOMAIN_MAP.md) — Bounded contexts and ownership
+- [SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) — Signal intake and triage
+- [DOMAIN_MAP.md](core/DOMAIN_MAP.md) — Bounded contexts and ownership
 - [templates/template_rfc.md](templates/template_rfc.md) — RFC template
 
 **What you'll see**:
@@ -105,8 +105,8 @@ grep -r "domain\|signal\|RFC" knowledge/ templates/
 
 **Read** (8 min):
 
-- [HOW_I_WORK.md](HOW_I_WORK.md) — Customer-centric principles
-- [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — Customer journey focus
+- [HOW_I_WORK.md](core/HOW_I_WORK.md) — Customer-centric principles
+- [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) — Customer journey focus
 - [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — Trust patterns
 
 **What you'll see**:
@@ -143,7 +143,7 @@ Organized content by subject area:
 
 ## 🔍 Search This Repository
 
-[**Search Guide →**](SEARCH.md)
+[**Search Guide →**](docs/SEARCH.md)
 
 Quick examples:
 
@@ -162,7 +162,7 @@ grep -r "customer\|interview" workflows/ templates/
 
 ## 📁 Repository Structure
 
-```
+```text
 ryanwinkler/
 ├── 📘 Core Documents          # Start here
 ├── 📚 Knowledge Base          # Frameworks & insights
@@ -179,7 +179,7 @@ ryanwinkler/
 
 ### Path 1: AI Product Manager (30 min)
 
-1. [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — 4 min
+1. [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) — 4 min
 2. [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — 10 min
 3. [workflows/ai-feature-launch.md](workflows/ai-feature-launch.md) — 8 min
 4. [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — 5 min
@@ -187,24 +187,24 @@ ryanwinkler/
 
 ### Path 2: Product Operations (25 min)
 
-1. [HOW_I_WORK.md](HOW_I_WORK.md) — 3 min
-2. [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — 3 min
+1. [HOW_I_WORK.md](core/HOW_I_WORK.md) — 3 min
+2. [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) — 3 min
 3. [runbooks/product/quarterly-roadmap-planning.md](runbooks/product/quarterly-roadmap-planning.md) — 10 min
 4. [workflows/new-feature.md](workflows/new-feature.md) — 6 min
 5. [templates/template_prd.md](templates/template_prd.md) — 3 min
 
 ### Path 3: Trust & Safety (20 min)
 
-1. [ARCHITECTURE.md](ARCHITECTURE.md) — 3 min
+1. [ARCHITECTURE.md](core/ARCHITECTURE.md) — 3 min
 2. [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — 5 min
 3. [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — 5 min
 4. [templates/template_incident_review.md](templates/template_incident_review.md) — 5 min
-5. [DECISIONS.md](DECISIONS.md) — 2 min
+5. [DECISIONS.md](core/DECISIONS.md) — 2 min
 
 ### Path 4: Customer Research (20 min)
 
-1. [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — 2 min
-2. [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md) — 3 min
+1. [SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) — 2 min
+2. [SIGNAL_SCORECARD.md](core/SIGNAL_SCORECARD.md) — 3 min
 3. [workflows/new-feature.md](workflows/new-feature.md) — 6 min
 4. [templates/template_signal_review.md](templates/template_signal_review.md) — 5 min
 5. [knowledge/frameworks.md](knowledge/frameworks.md) — 4 min
@@ -214,7 +214,7 @@ ryanwinkler/
 ## 🛠️ What's Inside
 
 | Category | Count | Examples |
-|----------|-------|----------|
+| :--- | :--- | :--- |
 | **Frameworks** | 7 | RICE, DDD, KCS, Customer Journey |
 | **Runbooks** | 2 | Roadmap planning, AI readiness |
 | **Workflows** | 3 | Feature dev, AI launch, research |
@@ -243,9 +243,9 @@ I build customer-facing and internal systems, including AI-enabled workflows, tr
 
 - [README](README.md) — Complete overview
 - [Topic Index](index/README.md) — Browse by subject
-- [Search Guide](SEARCH.md) — Find anything
-- [How I Work](HOW_I_WORK.md) — Operating principles
-- [AI in Production](AI_IN_PRODUCTION.md) — AI framework
+- [Search Guide](docs/SEARCH.md) — Find anything
+- [How I Work](core/HOW_I_WORK.md) — Operating principles
+- [AI in Production](core/AI_IN_PRODUCTION.md) — AI framework
 
 ---
 

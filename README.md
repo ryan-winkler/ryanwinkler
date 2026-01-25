@@ -12,11 +12,11 @@
 
 **Browse by topic**:
 
-- [AI in Production](#-ai-in-production) — Guardrails, observability, safety
-- [Product Frameworks](#-key-frameworks) — RICE, DDD, KCS, Customer Journey
-- [Runbooks](#-runbooks--procedures) — Repeatable procedures
-- [Insights](#-product-insights) — Patterns from shipped work
-- [Templates](#-templates--tools) — PRD, RFC, incident review
+- [AI in Production](#ai-in-production) — Guardrails, observability, safety
+- [Product Frameworks](#key-frameworks) — RICE, DDD, KCS, Customer Journey
+- [Runbooks](#runbooks-procedures) — Repeatable procedures
+- [Insights](#product-insights) — Patterns from shipped work
+- [Templates](#templates-tools) — PRD, RFC, incident review
 
 **Search content**:
 
@@ -47,8 +47,9 @@ grep -r "customer" insights/ workflows/
 
 ## 📁 Repository Structure
 
-```
+```text
 ryanwinkler/
+
 ├── 📘 Core Documents          # Start here
 │   ├── HOW_I_WORK.md         # Operating principles
 │   ├── AI_IN_PRODUCTION.md   # AI production framework
@@ -79,13 +80,13 @@ ryanwinkler/
 
 ---
 
-## 👔 For Hiring Managers
+## 👔 For Hiring Managers <a id="for-hiring-managers"></a>
 
 ### Evaluating for **AI Product / AI Platform**?
 
 **Read**:
 
-- [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — My framework for AI in production
+- [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) — My framework for AI in production
 - [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — Pre-launch checklist
 - [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — Why guardrails matter
 
@@ -107,8 +108,8 @@ grep -r "guardrails\|observability\|rollback" runbooks/ insights/
 
 **Read**:
 
-- [ARCHITECTURE.md](ARCHITECTURE.md) — System boundaries and failure modes
-- [DECISIONS.md](DECISIONS.md) — Decision log with rationale
+- [ARCHITECTURE.md](core/ARCHITECTURE.md) — System boundaries and failure modes
+- [DECISIONS.md](core/DECISIONS.md) — Decision log with rationale
 - [templates/template_incident_review.md](templates/template_incident_review.md) — Postmortem template
 
 **See**:
@@ -129,8 +130,8 @@ grep -r "risk\|compliance\|incident" templates/ runbooks/
 
 **Read**:
 
-- [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — Signal intake and triage
-- [DOMAIN_MAP.md](DOMAIN_MAP.md) — Bounded contexts and ownership
+- [SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) — Signal intake and triage
+- [DOMAIN_MAP.md](core/DOMAIN_MAP.md) — Bounded contexts and ownership
 - [templates/template_rfc.md](templates/template_rfc.md) — RFC template
 
 **See**:
@@ -151,8 +152,8 @@ grep -r "domain\|signal\|RFC" knowledge/ templates/
 
 **Read**:
 
-- [HOW_I_WORK.md](HOW_I_WORK.md) — Customer-centric principles
-- [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — Customer journey focus
+- [HOW_I_WORK.md](core/HOW_I_WORK.md) — Customer-centric principles
+- [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) — Customer journey focus
 - [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — Trust patterns
 
 **See**:
@@ -169,7 +170,7 @@ grep -r "customer\|journey\|trust" insights/ workflows/
 
 ---
 
-## 🎯 Key Frameworks
+## 🎯 Key Frameworks <a id="key-frameworks"></a>
 
 ### RICE / DRICE Prioritization
 
@@ -178,7 +179,7 @@ Systematic scoring for feature prioritization:
 - **RICE** = (Reach × Impact × Confidence) / Effort
 - **DRICE** adds Dependencies and Risk for complex work
 
-📖 [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) | 📝 [Template](templates/template_rice_drice.md)
+📖 [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) | 📝 [Template](templates/template_rice_drice.md)
 
 ---
 
@@ -190,7 +191,7 @@ Clear boundaries, explicit ownership, ubiquitous language:
 - Ownership is explicit, not shared
 - Language is consistent across teams and tools
 
-📖 [DOMAIN_MAP.md](DOMAIN_MAP.md) | 📖 [ARCHITECTURE.md](ARCHITECTURE.md)
+📖 [DOMAIN_MAP.md](core/DOMAIN_MAP.md) | 📖 [ARCHITECTURE.md](core/ARCHITECTURE.md)
 
 ---
 
@@ -202,7 +203,7 @@ Knowledge as a product surface:
 - Signal quality drives decisions
 - Documentation is a first-class concern
 
-📖 [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md) | 📁 [runbooks/](runbooks/)
+📖 [SIGNAL_SCORECARD.md](core/SIGNAL_SCORECARD.md) | 📁 [runbooks/](runbooks/)
 
 ---
 
@@ -214,11 +215,11 @@ End-to-end experience thinking:
 - Assess severity and frequency
 - Prioritize trust-impacting issues
 
-📖 [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) | 📖 [knowledge/frameworks.md](knowledge/frameworks.md)
+📖 [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) | 📖 [knowledge/frameworks.md](knowledge/frameworks.md)
 
 ---
 
-## 🔧 Runbooks & Procedures
+## 🔧 Runbooks & Procedures <a id="runbooks-procedures"></a>
 
 **If you do it twice, document it.**
 
@@ -234,7 +235,7 @@ grep -r "roadmap\|planning\|AI\|production" runbooks/
 
 ---
 
-## 💡 Product Insights
+## 💡 Product Insights <a id="product-insights"></a>
 
 **Patterns and learnings from shipped work.**
 
@@ -257,7 +258,7 @@ grep -r "AI\|guardrails\|confidence" insights/
 
 ---
 
-## 📝 Templates & Tools
+## 📝 Templates & Tools <a id="templates-tools"></a>
 
 ### Product Development
 
@@ -303,7 +304,7 @@ grep -r "workflow\|process" workflows/
 
 ---
 
-## 🤖 AI in Production
+## 🤖 AI in Production <a id="ai-in-production"></a>
 
 My approach to AI features:
 
@@ -333,7 +334,7 @@ My approach to AI features:
 - Safe defaults when AI is disabled
 - Clear triggers and ownership
 
-📖 [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) | 📁 [runbooks/ai/](runbooks/ai/)
+📖 [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) | 📁 [runbooks/ai/](runbooks/ai/)
 
 ---
 
@@ -395,7 +396,7 @@ Common tags: `ai`, `production`, `guardrails`, `trust`, `customer`, `prioritizat
 - Blameless postmortems
 - Knowledge capture in the flow of work
 
-📖 [HOW_I_WORK.md](HOW_I_WORK.md)
+📖 [HOW_I_WORK.md](core/HOW_I_WORK.md)
 
 ---
 

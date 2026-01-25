@@ -8,7 +8,7 @@ Browse content by topic. Each section links to relevant documents, templates, an
 
 **Core Documents**:
 
-- [AI_IN_PRODUCTION.md](../AI_IN_PRODUCTION.md) — Framework for AI in production
+- [AI_IN_PRODUCTION.md](../core/AI_IN_PRODUCTION.md) — Framework for AI in production
 - [runbooks/ai/production-readiness-check.md](../runbooks/ai/production-readiness-check.md) — Pre-launch checklist
 
 **Insights**:
@@ -37,8 +37,8 @@ grep -r "AI\|guardrails\|production\|observability" runbooks/ insights/ template
 
 **Core Documents**:
 
-- [PRIORITISATION_SYSTEM.md](../PRIORITISATION_SYSTEM.md) — RICE/DRICE framework
-- [SIGNAL_SCORECARD.md](../SIGNAL_SCORECARD.md) — Signal quality assessment
+- [PRIORITISATION_SYSTEM.md](../core/PRIORITISATION_SYSTEM.md) — RICE/DRICE framework
+- [SIGNAL_SCORECARD.md](../core/SIGNAL_SCORECARD.md) — Signal quality assessment
 
 **Templates**:
 
@@ -63,7 +63,7 @@ grep -r "RICE\|DRICE\|priorit\|scoring" knowledge/ templates/ runbooks/
 
 **Core Documents**:
 
-- [SIGNAL_TO_DECISION.md](../SIGNAL_TO_DECISION.md) — Signal intake process
+- [SIGNAL_TO_DECISION.md](../core/SIGNAL_TO_DECISION.md) — Signal intake process
 - [knowledge/frameworks.md](../knowledge/frameworks.md) — Customer Journey Mapping
 
 **Templates**:
@@ -88,8 +88,8 @@ grep -r "customer\|interview\|research\|journey" workflows/ templates/ insights/
 
 **Core Documents**:
 
-- [DOMAIN_MAP.md](../DOMAIN_MAP.md) — Bounded contexts and ownership
-- [ARCHITECTURE.md](../ARCHITECTURE.md) — System boundaries
+- [DOMAIN_MAP.md](../core/DOMAIN_MAP.md) — Bounded contexts and ownership
+- [ARCHITECTURE.md](../core/ARCHITECTURE.md) — System boundaries
 - [knowledge/frameworks.md](../knowledge/frameworks.md) — DDD framework
 
 **Templates**:
@@ -110,7 +110,7 @@ grep -r "domain\|bounded\|context\|ownership" knowledge/ templates/
 
 **Core Documents**:
 
-- [AI_IN_PRODUCTION.md](../AI_IN_PRODUCTION.md) — AI safety framework
+- [AI_IN_PRODUCTION.md](../core/AI_IN_PRODUCTION.md) — AI safety framework
 
 **Insights**:
 
@@ -136,7 +136,7 @@ grep -r "trust\|safety\|risk\|compliance" insights/ templates/ runbooks/
 
 **Core Documents**:
 
-- [DECISIONS.md](../DECISIONS.md) — Decision log
+- [DECISIONS.md](../core/DECISIONS.md) — Decision log
 
 **Templates**:
 
@@ -160,7 +160,7 @@ grep -r "incident\|postmortem\|review" templates/ runbooks/
 
 **Core Documents**:
 
-- [SIGNAL_SCORECARD.md](../SIGNAL_SCORECARD.md) — Signal quality (KCS)
+- [SIGNAL_SCORECARD.md](../core/SIGNAL_SCORECARD.md) — Signal quality (KCS)
 - [knowledge/frameworks.md](../knowledge/frameworks.md) — KCS framework
 
 **Runbooks**:
@@ -189,8 +189,8 @@ grep -r "knowledge\|KCS\|runbook\|insight" knowledge/ runbooks/ insights/
 
 **Core Documents**:
 
-- [HOW_I_WORK.md](../HOW_I_WORK.md) — Operating principles
-- [PRIORITISATION_SYSTEM.md](../PRIORITISATION_SYSTEM.md) — Strategic prioritization
+- [HOW_I_WORK.md](../core/HOW_I_WORK.md) — Operating principles
+- [PRIORITISATION_SYSTEM.md](../core/PRIORITISATION_SYSTEM.md) — Strategic prioritization
 
 **Runbooks**:
 
@@ -215,7 +215,7 @@ grep -r "strategy\|roadmap\|planning" runbooks/ templates/
 
 **Core Documents**:
 
-- [HOW_I_WORK.md](../HOW_I_WORK.md) — Operational habits
+- [HOW_I_WORK.md](../core/HOW_I_WORK.md) — Operational habits
 
 **Runbooks**:
 
@@ -241,7 +241,7 @@ grep -r "runbook\|procedure\|operational" runbooks/ templates/
 
 **Core Documents**:
 
-- [SIGNAL_SCORECARD.md](../SIGNAL_SCORECARD.md) — Signal quality metrics
+- [SIGNAL_SCORECARD.md](../core/SIGNAL_SCORECARD.md) — Signal quality metrics
 
 **Insights**:
 

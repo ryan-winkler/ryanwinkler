@@ -5,7 +5,7 @@
 A practical stack that links customer signal to scoring and decisions.
 It combines RICE/DRICE, DDD, KCS, and the end-to-end journey.
 Use it to make prioritisation explicit and repeatable.
-See [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md), [DOMAIN_MAP.md](DOMAIN_MAP.md), and [templates/template_rice_drice.md](templates/template_rice_drice.md).
+See [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md), [DOMAIN_MAP.md](DOMAIN_MAP.md), and [templates/template_rice_drice.md](../templates/template_rice_drice.md).
 
 ## When to use RICE vs DRICE
 
@@ -21,6 +21,7 @@ See [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md), [DOMAIN_MAP.md](DOMAIN_MAP.md), 
 Use bounded contexts and ownership to define the unit of work. See [DOMAIN_MAP.md](DOMAIN_MAP.md).
 
 Checklist:
+
 - [ ] The work sits in a named bounded context.
 - [ ] The owning team is clear.
 - [ ] The language matches the domain (ubiquitous language).
@@ -31,6 +32,7 @@ Checklist:
 Signal quality drives confidence and should be visible in scoring. See [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md).
 
 Checklist:
+
 - [ ] Signals are captured with evidence and reproducibility.
 - [ ] Repeated signals are merged and counted once.
 - [ ] Noise is labelled (one-off, opinion-only, or unverified).
@@ -41,6 +43,7 @@ Checklist:
 Where the friction sits affects impact and trust.
 
 Checklist:
+
 - [ ] Journey stage is explicit (onboarding, core use, support, renewal).
 - [ ] Severity is assessed in customer terms.
 - [ ] Frequency reflects how often customers hit the issue.
