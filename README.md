@@ -12,11 +12,11 @@
 
 **Browse by topic**:
 
-- [AI in Production](#ai-in-production) — Guardrails, observability, safety
-- [Product Frameworks](#key-frameworks) — RICE, DDD, KCS, Customer Journey
-- [Runbooks](#runbooks--procedures) — Repeatable procedures
-- [Insights](#product-insights) — Patterns from shipped work
-- [Templates](#templates--tools) — PRD, RFC, incident review
+- [AI in Production](#-ai-in-production) — Guardrails, observability, safety
+- [Product Frameworks](#-key-frameworks) — RICE, DDD, KCS, Customer Journey
+- [Runbooks](#-runbooks--procedures) — Repeatable procedures
+- [Insights](#-product-insights) — Patterns from shipped work
+- [Templates](#-templates--tools) — PRD, RFC, incident review
 
 **Search content**:
 
