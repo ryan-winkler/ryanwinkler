@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Personal notes (keep private)
+NOTES.md
+TODO.md
+SCRATCH.md
