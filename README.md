@@ -244,6 +244,7 @@ grep -r "roadmap\|planning\|AI\|production" runbooks/
 
 - [Sync Delays Break Trust](insights/patterns/sync-delays-break-trust.md) — Real-time data > features
 - [AI Guardrails Are Non-Negotiable](insights/patterns/ai-guardrails-non-negotiable.md) — Production AI safety
+- [AI Context Engineering](insights/patterns/ai-context-engineering.md) — Managing agent context quality
 
 **Search insights**:
 
@@ -447,6 +448,7 @@ This repository is part of a broader product management community. Recommended r
 - [Lenny's Podcast Transcripts](https://github.com/ChatPRD/lennys-podcast-transcripts) by [@ChatPRD](https://github.com/ChatPRD) — Searchable transcripts from Lenny's Podcast
 - [LogChimp](https://github.com/logchimp/logchimp) by [@logchimp](https://github.com/logchimp) — Open-source customer feedback and product roadmap tool
 - [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
+- [Get Shit Done](https://github.com/glittercowboy/get-shit-done) by [@glittercowboy](https://github.com/glittercowboy) — Context engineering and spec-driven development for AI agents
 
 ### Related Topics
 
