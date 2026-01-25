@@ -115,7 +115,6 @@ You need guardrails.
 ## Related Insights
 
 - [Sync Delays Break Trust](sync-delays-break-trust.md)
-- [Users Don't Forgive AI Mistakes](users-dont-forgive-ai-mistakes.md)
 
 ---
 

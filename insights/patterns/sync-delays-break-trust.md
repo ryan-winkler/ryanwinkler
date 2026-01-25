@@ -74,8 +74,7 @@ This insight applies to any feature where:
 
 ## Related Insights
 
-- [AI Confidence Needs Customer-Specific Calibration](ai-confidence-calibration.md)
-- [Users Don't Read Tooltips](users-dont-read-tooltips.md)
+- [AI Guardrails Are Non-Negotiable](ai-guardrails-non-negotiable.md)
 
 ---
 
