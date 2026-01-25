@@ -1,129 +1,254 @@
-# Start Here
+# Start Here 👋
 
-This repository demonstrates how I approach product management in practice.
-
-## Quick Navigation
-
-### For Hiring Managers
-
-**Evaluating for AI Product / AI Platform?**  
-→ [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — My framework for AI in production  
-→ [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — Pre-launch checklist  
-→ [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — Why guardrails matter
-
-**Evaluating for Trust / Risk / Compliance / Safety?**  
-→ [ARCHITECTURE.md](ARCHITECTURE.md) — System boundaries and failure modes  
-→ [DECISIONS.md](DECISIONS.md) — Decision log with rationale  
-→ [templates/template_incident_review.md](templates/template_incident_review.md) — Postmortem process
-
-**Evaluating for Internal Platforms / Developer Tooling?**  
-→ [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — Signal intake and triage  
-→ [DOMAIN_MAP.md](DOMAIN_MAP.md) — Bounded contexts and ownership  
-→ [templates/template_rfc.md](templates/template_rfc.md) — RFC template
-
-**Evaluating for Customer-Facing Product?**  
-→ [HOW_I_WORK.md](HOW_I_WORK.md) — Customer-centric principles  
-→ [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — Customer journey focus  
-→ [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — Trust patterns
+**Welcome to my product operating system.** This repository demonstrates how I approach product management in practice.
 
 ---
 
-### Core Documents
+## ⚡ Quick Start (30 seconds)
 
-1. **[README.md](README.md)** — Repository overview and structure
-2. **[HOW_I_WORK.md](HOW_I_WORK.md)** — Operating principles and habits
-3. **[AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md)** — AI production framework
-4. **[PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md)** — How I prioritize work
-5. **[SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md)** — Signal intake process
+**I'm a hiring manager looking for**:
 
----
+- [AI Product / AI Platform](#ai-product--ai-platform) →
+- [Trust / Risk / Safety](#trust--risk--compliance--safety) →
+- [Internal Platforms / Dev Tooling](#internal-platforms--developer-tooling) →
+- [Customer-Facing Product](#customer-facing-product) →
 
-### Frameworks
+**I want to**:
 
-**RICE / DRICE Prioritization**  
-Systematic scoring for feature prioritization  
-→ [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md)  
-→ [knowledge/frameworks.md](knowledge/frameworks.md)
-
-**Domain Driven Design**  
-Clear boundaries, explicit ownership, ubiquitous language  
-→ [DOMAIN_MAP.md](DOMAIN_MAP.md)  
-→ [ARCHITECTURE.md](ARCHITECTURE.md)
-
-**Knowledge-Centered Service**  
-Knowledge as a product surface, signal quality  
-→ [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md)  
-→ [runbooks/](runbooks/)
-
-**Customer Journey Mapping**  
-End-to-end experience, friction points, trust impact  
-→ [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md)
+- [Browse by topic](index/README.md) — Organized content index
+- [Search for something](SEARCH.md) — Grep examples and search guide
+- [See the big picture](README.md) — Full README with everything
 
 ---
 
-### Operational Systems
+## 📚 Core Documents (Start Here)
 
-**Runbooks** — Repeatable procedures for product work  
-→ [Quarterly Roadmap Planning](runbooks/product/quarterly-roadmap-planning.md)  
-→ [AI Production Readiness Check](runbooks/ai/production-readiness-check.md)  
-→ [Runbook Template](templates/template_runbook.md)
-
-**Workflows** — End-to-end processes  
-→ [New Feature Development](workflows/new-feature.md)  
-→ [AI Feature Launch](workflows/ai-feature-launch.md)
-
-**Templates** — Document structures  
-→ [PRD](templates/template_prd.md), [RFC](templates/template_rfc.md), [RICE/DRICE](templates/template_rice_drice.md)  
-→ [Signal Review](templates/template_signal_review.md), [Incident Review](templates/template_incident_review.md)  
-→ [AI Guardrails](templates/template_ai_guardrails.md)
+| Document | What It Covers | Time to Read |
+|----------|---------------|--------------|
+| [README.md](README.md) | Complete overview, structure, navigation | 5 min |
+| [HOW_I_WORK.md](HOW_I_WORK.md) | Operating principles and habits | 3 min |
+| [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) | AI production framework | 4 min |
+| [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) | RICE/DRICE prioritization | 3 min |
+| [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) | Signal intake process | 2 min |
 
 ---
 
-### Product Insights
+## 🎯 For Hiring Managers
 
-Patterns and learnings from shipped work:
+### AI Product / AI Platform
 
-→ [Sync Delays Break Trust](insights/patterns/sync-delays-break-trust.md)  
-→ [AI Guardrails Are Non-Negotiable](insights/patterns/ai-guardrails-non-negotiable.md)
+**Read** (10 min):
 
----
+- [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — My framework for AI in production
+- [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — Pre-launch checklist
+- [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — Why guardrails matter
 
-## How I Work
+**What you'll see**:
 
-**Core principles**:
+- ✅ Guardrails framework (handoff, refusal, confidence, policy)
+- ✅ Observability requirements (metrics, logs, alerts)
+- ✅ Failure mode analysis and rollback procedures
 
-- Everything is a signal
-- Write decisions down
-- Clarify boundaries early
-- Prefer evidence over opinion
-- Set feedback loops before shipping
+**Quick search**:
 
-**Operational habits**:
-
-- Runbooks for repeatable work
-- Meetings for coordination, not discovery
-- Async-first communication
-- Blameless postmortems
-- Knowledge capture in the flow of work
-
-See: [HOW_I_WORK.md](HOW_I_WORK.md)
+```bash
+grep -r "guardrails\|observability\|rollback" runbooks/ insights/
+```
 
 ---
 
-## About Me
+### Trust / Risk / Compliance / Safety
 
-**Ryan Winkler**  
-Product Manager, Dublin, Ireland
+**Read** (8 min):
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — System boundaries and failure modes
+- [DECISIONS.md](DECISIONS.md) — Decision log with rationale
+- [templates/template_incident_review.md](templates/template_incident_review.md) — Postmortem template
+
+**What you'll see**:
+
+- ✅ Blameless incident review process
+- ✅ Risk assessment and mitigation
+- ✅ Explicit ownership and escalation paths
+
+**Quick search**:
+
+```bash
+grep -r "risk\|compliance\|incident" templates/ runbooks/
+```
+
+---
+
+### Internal Platforms / Developer Tooling
+
+**Read** (8 min):
+
+- [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — Signal intake and triage
+- [DOMAIN_MAP.md](DOMAIN_MAP.md) — Bounded contexts and ownership
+- [templates/template_rfc.md](templates/template_rfc.md) — RFC template
+
+**What you'll see**:
+
+- ✅ Domain-driven design in practice
+- ✅ Signal quality assessment
+- ✅ Knowledge-centered service approach
+
+**Quick search**:
+
+```bash
+grep -r "domain\|signal\|RFC" knowledge/ templates/
+```
+
+---
+
+### Customer-Facing Product
+
+**Read** (8 min):
+
+- [HOW_I_WORK.md](HOW_I_WORK.md) — Customer-centric principles
+- [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — Customer journey focus
+- [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — Trust patterns
+
+**What you'll see**:
+
+- ✅ End-to-end customer journey thinking
+- ✅ Evidence-based prioritization
+- ✅ Customer research methodology
+
+**Quick search**:
+
+```bash
+grep -r "customer\|journey\|trust" insights/ workflows/
+```
+
+---
+
+## 🗂️ Browse by Topic
+
+[**Topic Index →**](index/README.md)
+
+Organized content by subject area:
+
+- AI in Production
+- Product Prioritization
+- Customer Research
+- Domain Driven Design
+- Trust & Safety
+- Incident Response
+- Knowledge Management
+- Product Strategy
+- Operational Excellence
+
+---
+
+## 🔍 Search This Repository
+
+[**Search Guide →**](SEARCH.md)
+
+Quick examples:
+
+```bash
+# AI and production
+grep -r "AI\|guardrails\|production" runbooks/ insights/
+
+# Prioritization
+grep -r "RICE\|priorit" knowledge/ templates/
+
+# Customer research
+grep -r "customer\|interview" workflows/ templates/
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+ryanwinkler/
+├── 📘 Core Documents          # Start here
+├── 📚 Knowledge Base          # Frameworks & insights
+├── 🔧 Operational Systems     # How to execute
+├── 📊 Active Work             # Track & execute
+└── 🧠 Memory & Learning       # Continuous improvement
+```
+
+[See full structure →](README.md#-repository-structure)
+
+---
+
+## 🎓 Learning Paths
+
+### Path 1: AI Product Manager (30 min)
+
+1. [AI_IN_PRODUCTION.md](AI_IN_PRODUCTION.md) — 4 min
+2. [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — 10 min
+3. [workflows/ai-feature-launch.md](workflows/ai-feature-launch.md) — 8 min
+4. [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — 5 min
+5. [templates/template_ai_guardrails.md](templates/template_ai_guardrails.md) — 3 min
+
+### Path 2: Product Operations (25 min)
+
+1. [HOW_I_WORK.md](HOW_I_WORK.md) — 3 min
+2. [PRIORITISATION_SYSTEM.md](PRIORITISATION_SYSTEM.md) — 3 min
+3. [runbooks/product/quarterly-roadmap-planning.md](runbooks/product/quarterly-roadmap-planning.md) — 10 min
+4. [workflows/new-feature.md](workflows/new-feature.md) — 6 min
+5. [templates/template_prd.md](templates/template_prd.md) — 3 min
+
+### Path 3: Trust & Safety (20 min)
+
+1. [ARCHITECTURE.md](ARCHITECTURE.md) — 3 min
+2. [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — 5 min
+3. [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — 5 min
+4. [templates/template_incident_review.md](templates/template_incident_review.md) — 5 min
+5. [DECISIONS.md](DECISIONS.md) — 2 min
+
+### Path 4: Customer Research (20 min)
+
+1. [SIGNAL_TO_DECISION.md](SIGNAL_TO_DECISION.md) — 2 min
+2. [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md) — 3 min
+3. [workflows/new-feature.md](workflows/new-feature.md) — 6 min
+4. [templates/template_signal_review.md](templates/template_signal_review.md) — 5 min
+5. [knowledge/frameworks.md](knowledge/frameworks.md) — 4 min
+
+---
+
+## 🛠️ What's Inside
+
+| Category | Count | Examples |
+|----------|-------|----------|
+| **Frameworks** | 7 | RICE, DDD, KCS, Customer Journey |
+| **Runbooks** | 2 | Roadmap planning, AI readiness |
+| **Workflows** | 3 | Feature dev, AI launch, research |
+| **Templates** | 7+ | PRD, RFC, incident review, AI guardrails |
+| **Insights** | 2 | Trust patterns, AI safety |
+
+---
+
+## 🧑‍💼 About Me
+
+**Ryan Winkler** — Senior Product Manager, Dublin, Ireland
 
 I build customer-facing and internal systems, including AI-enabled workflows, trust-sensitive platforms, and tooling for decision-making in production.
 
-**Connect**:
+**Focus areas**:
 
-- [ryanw.eu](https://ryanw.eu)
-- [LinkedIn](https://www.linkedin.com/in/ryan-winkler-dublin-pm/)
-- [X](https://x.com/ryanw_product)
-- [GitHub](https://github.com/ryan-winkler)
+- AI in production (guardrails, observability, safety)
+- Trust-sensitive platforms (compliance, risk, reliability)
+- Customer signal to decision loops (KCS, DDD, journey mapping)
+
+[All profiles →](README.md#-connect)
+
+---
+
+## 🔗 Quick Links
+
+- [README](README.md) — Complete overview
+- [Topic Index](index/README.md) — Browse by subject
+- [Search Guide](SEARCH.md) — Find anything
+- [How I Work](HOW_I_WORK.md) — Operating principles
+- [AI in Production](AI_IN_PRODUCTION.md) — AI framework
 
 ---
 
 _These materials reflect how I approach product work in practice and are shared for reference._
+
+**Last updated**: 2026-01-25
