@@ -245,6 +245,7 @@ grep -r "roadmap\|planning\|AI\|production" runbooks/
 - [Sync Delays Break Trust](insights/patterns/sync-delays-break-trust.md) — Real-time data > features
 - [AI Guardrails Are Non-Negotiable](insights/patterns/ai-guardrails-non-negotiable.md) — Production AI safety
 - [AI Context Engineering](insights/patterns/ai-context-engineering.md) — Managing agent context quality
+- [Personal Copilot Workflow](insights/patterns/personal-copilot-workflow.md) — Automating daily PM operations
 
 **Search insights**:
 
@@ -449,6 +450,7 @@ This repository is part of a broader product management community. Recommended r
 - [LogChimp](https://github.com/logchimp/logchimp) by [@logchimp](https://github.com/logchimp) — Open-source customer feedback and product roadmap tool
 - [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
 - [Get Shit Done](https://github.com/glittercowboy/get-shit-done) by [@glittercowboy](https://github.com/glittercowboy) — Context engineering and spec-driven development for AI agents
+- [Ultimate Claude Code Masterclass](https://www.productmanagement.ai/p/ultimate-claude-code-masterclass) by Product Faculty — Guide to building a personal PM copilot
 
 ### Related Topics
 
