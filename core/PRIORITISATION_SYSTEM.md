@@ -6,6 +6,7 @@ A practical stack that links customer signal to scoring and decisions.
 It combines RICE/DRICE, DDD, KCS, and the end-to-end journey.
 Use it to make prioritisation explicit and repeatable.
 See [SIGNAL_SCORECARD.md](SIGNAL_SCORECARD.md), [DOMAIN_MAP.md](DOMAIN_MAP.md), and [templates/template_rice_drice.md](../templates/template_rice_drice.md).
+For context on DRICE, see [Introducing DRICE](https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization).
 
 ## When to use RICE vs DRICE
 
