@@ -6,6 +6,8 @@ Core frameworks Ryan uses in product work.
 
 ### RICE Formula
 
+For a deep dive, see [RICE: Simple Prioritization for Product Managers](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) (Intercom).
+
 ```
 Score = (Reach × Impact × Confidence) / Effort
 ```
@@ -37,6 +39,8 @@ Score = (Reach × Impact × Confidence) / Effort
 
 ### DRICE Formula (for complex work)
 
+Proposed by Lenny Rachitsky for complex environments. See [Introducing DRICE](https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization).
+
 ```
 Score = (Reach × Impact × Confidence) / (Effort × Dependencies × Risk)
 ```
@@ -66,6 +70,8 @@ Score = (Reach × Impact × Confidence) / (Effort × Dependencies × Risk)
 | Proven, incremental work | RICE | Avoid overhead |
 
 ## Domain Driven Design (DDD)
+
+For a product-focused intro, see [DDD for Product Managers](https://www.mindtheproduct.com/domain-driven-design-for-product-managers/).
 
 ### Bounded Contexts
 
@@ -103,6 +109,8 @@ Use the same terms in code, docs, and conversations.
 - Document terms in context documentation
 
 ## Knowledge-Centered Service (KCS)
+
+The consortium standard for knowledge management. See the [KCS v6 Methodology](https://www.serviceinnovation.org/kcs/).
 
 ### Core Principles
 
@@ -144,6 +152,8 @@ Use the same terms in code, docs, and conversations.
 
 ## Customer Journey Mapping
 
+A foundational tool for empathy. See [Nielsen Norman Group on Journey Mapping](https://www.nngroup.com/articles/customer-journey-mapping-101/).
+
 ### Journey Stages
 
 **Awareness**: Customer discovers the product
@@ -176,6 +186,8 @@ Some friction points affect trust more than others:
 
 ## Four Risks Framework
 
+From Marty Cagan (SVPG). See [The Four Big Risks](https://svpg.com/four-big-risks/).
+
 Every product faces four types of risk:
 
 **Value Risk**: Will customers buy it or choose to use it?
@@ -195,6 +207,8 @@ Every product faces four types of risk:
 - Validate: Financial modeling, strategic alignment, operational assessment
 
 ## LNO Framework (Leverage, Neutral, Overhead)
+
+Created by Shreyas Doshi. See [High Leverage vs High Output](https://twitter.com/shreyas/status/1220886576974020609) (Twitter/X thread).
 
 Categorize work by its impact on future velocity:
 
@@ -221,6 +235,8 @@ Categorize work by its impact on future velocity:
 **Application**: Aim for a portfolio balance, not just neutral work.
 
 ## DHM Framework (Delight, Hard to Copy, Margin-Enhancing)
+
+Created by Gibson Biddle (ex-Netflix). See [The DHM Model](https://gibsonbiddle.medium.com/intro-to-product-strategy-60b6966e4926).
 
 Evaluate features for strategic value:
 
