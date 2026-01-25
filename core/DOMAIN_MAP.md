@@ -9,6 +9,7 @@ Use it to keep boundaries and ownership clear.
 ## How to name bounded contexts
 
 Checklist:
+
 - [ ] Use customer-facing language where possible.
 - [ ] Keep names stable over time.
 - [ ] Avoid names that describe teams or systems.
@@ -17,6 +18,7 @@ Checklist:
 ## How to assign ownership
 
 Checklist:
+
 - [ ] One accountable owner per context.
 - [ ] Ownership includes runbooks and decision rights.
 - [ ] Shared responsibility is the exception, not the default.
@@ -24,11 +26,12 @@ Checklist:
 ## How to define interfaces and contracts
 
 Checklist:
+
 - [ ] Define inputs and outputs between contexts.
 - [ ] Document data ownership and quality rules.
 - [ ] Agree on error handling and escalation paths.
 
-## Example domain map (placeholders)
+## Domain map structure
 
 | Bounded context | Primary responsibility | Interfaces |
 | --- | --- | --- |

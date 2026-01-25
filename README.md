@@ -1,4 +1,5 @@
 # Ryan Winkler — Product Operating System
+
 **Website**: [ryanw.eu](https://ryanw.eu)
 > **Product manager based in Dublin, Ireland**  
 > Systematic approach to AI in production, trust-sensitive platforms, and customer signal to decision loops
@@ -436,7 +437,7 @@ I build customer-facing and internal systems, including AI-enabled workflows, tr
 
 ## 📚 Resources
 
-This repository is part of a broader product management community. Here are other valuable resources:
+This repository is part of a broader product management community. Recommended resources:
 
 ### Product Management Collections
 
