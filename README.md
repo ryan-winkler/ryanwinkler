@@ -448,13 +448,13 @@ This repository is part of a broader product management community. Recommended r
 - [Open Product Management](https://github.com/ProductHired/open-product-management) by [@ProductHired](https://github.com/ProductHired) — PM advice for technical people
 - [Lenny's Podcast Transcripts](https://github.com/ChatPRD/lennys-podcast-transcripts) by [@ChatPRD](https://github.com/ChatPRD) — Searchable transcripts from Lenny's Podcast
 - [LogChimp](https://github.com/logchimp/logchimp) by [@logchimp](https://github.com/logchimp) — Open-source customer feedback and product roadmap tool
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
-- [Ultimate Claude Code Masterclass](https://www.productmanagement.ai/p/ultimate-claude-code-masterclass) by Product Faculty — Guide to building a personal PM copilot
 
 ### Claude Code & Prompts
 
 - [Custom Claude Commands](https://github.com/lehen20/custom-claude-commands) by [@lehen20](https://github.com/lehen20) — 22 ready-to-use slash commands for code, security, and project management
 - [Get Shit Done](https://github.com/glittercowboy/get-shit-done) by [@glittercowboy](https://github.com/glittercowboy) — Context engineering and spec-driven development system
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
+- [Ultimate Claude Code Masterclass](https://www.productmanagement.ai/p/ultimate-claude-code-masterclass) by Product Faculty — Guide to building a personal PM copilot
 
 ### Related Topics
 
