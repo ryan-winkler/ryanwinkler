@@ -236,7 +236,7 @@ Categorize work by its impact on future velocity:
 
 ## DHM Framework (Delight, Hard to Copy, Margin-Enhancing)
 
-Created by Gibson Biddle (ex-Netflix). See [Product Strategy at Netflix](https://www.lennysnewsletter.com/p/product-strategy-at-netflix) (Lenny's Newsletter).
+Created by Gibson Biddle (ex-Netflix). See [How to Define Your Product Strategy](https://medium.com/@gibsonbiddle/intro-to-product-strategy-60bdf72b17e3?sk=7e94b5c6b7e35357359b31e823d6005d&source=friends_link) (Medium).
 
 Evaluate features for strategic value:
 
