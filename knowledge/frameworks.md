@@ -71,7 +71,7 @@ Score = (Reach × Impact × Confidence) / (Effort × Dependencies × Risk)
 
 ## Domain Driven Design (DDD)
 
-For a product-focused intro, see [How Domain-Driven Design Can Boost Your Product Development](https://medium.com/serious-scrum/how-domain-driven-design-can-boost-your-product-development-25078519d14f).
+For a foundational intro, see [DomainDrivenDesign](https://martinfowler.com/bliki/DomainDrivenDesign.html) by Martin Fowler.
 
 ### Bounded Contexts
 
@@ -152,7 +152,7 @@ The consortium standard for knowledge management. See the [KCS v6 Methodology](h
 
 ## Customer Journey Mapping
 
-A foundational tool for empathy. See [Nielsen Norman Group on Journey Mapping](https://www.nngroup.com/articles/customer-journey-mapping-101/).
+A foundational tool for empathy. See [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/) by Nielsen Norman Group.
 
 ### Journey Stages
 
@@ -236,7 +236,7 @@ Categorize work by its impact on future velocity:
 
 ## DHM Framework (Delight, Hard to Copy, Margin-Enhancing)
 
-Created by Gibson Biddle (ex-Netflix). See [Intro to Product Strategy](https://gibsonbiddle.medium.com/intro-to-product-strategy-60b6966e4926).
+Created by Gibson Biddle (ex-Netflix). See [Product Strategy at Netflix](https://www.lennysnewsletter.com/p/product-strategy-at-netflix) (Lenny's Newsletter).
 
 Evaluate features for strategic value:
 
