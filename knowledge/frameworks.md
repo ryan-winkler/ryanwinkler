@@ -71,7 +71,7 @@ Score = (Reach × Impact × Confidence) / (Effort × Dependencies × Risk)
 
 ## Domain Driven Design (DDD)
 
-For a product-focused intro, see [DDD for Product Managers](https://www.mindtheproduct.com/domain-driven-design-for-product-managers/).
+For a product-focused intro, see [How Domain-Driven Design Can Boost Your Product Development](https://medium.com/serious-scrum/how-domain-driven-design-can-boost-your-product-development-25078519d14f).
 
 ### Bounded Contexts
 
@@ -208,7 +208,7 @@ Every product faces four types of risk:
 
 ## LNO Framework (Leverage, Neutral, Overhead)
 
-Created by Shreyas Doshi. See [High Leverage vs High Output](https://twitter.com/shreyas/status/1220886576974020609) (Twitter/X thread).
+Created by Shreyas Doshi. See the [LNO Framework Guide on Coda](https://coda.io/@shreyas/lno-framework).
 
 Categorize work by its impact on future velocity:
 
@@ -236,7 +236,7 @@ Categorize work by its impact on future velocity:
 
 ## DHM Framework (Delight, Hard to Copy, Margin-Enhancing)
 
-Created by Gibson Biddle (ex-Netflix). See [The DHM Model](https://gibsonbiddle.medium.com/intro-to-product-strategy-60b6966e4926).
+Created by Gibson Biddle (ex-Netflix). See [Intro to Product Strategy](https://gibsonbiddle.medium.com/intro-to-product-strategy-60b6966e4926).
 
 Evaluate features for strategic value:
 
