@@ -341,6 +341,21 @@ My approach to AI features:
 
 ---
 
+## 🛠️ Projects
+
+### ZeroClaw — Personal AI Agent
+
+A self-hosted AI agent built in Rust, running as a systemd service on my workstation. ZeroClaw is how I dogfood the AI production principles documented in this repository.
+
+- **Triple fallback chain**: Gemini → OpenAI → Ollama (local GPU)
+- **Channels**: Terminal CLI (`ask "..."`) + Telegram bot
+- **Reliability**: Systemd-managed with auto-restart, health monitoring, and structured memory
+- **Guardrails in practice**: Confidence thresholds, provider failover, context hygiene
+
+> This is the live implementation of my [AI in Production](core/AI_IN_PRODUCTION.md) framework — guardrails, observability, and failure modes applied to a real system.
+
+---
+
 ## 🔍 How to Search This Repository
 
 ### By Topic
@@ -456,6 +471,17 @@ This repository is part of a broader product management community. Recommended r
 - [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
 - [Ultimate Claude Code Masterclass](https://www.productmanagement.ai/p/ultimate-claude-code-masterclass) by Product Faculty — Guide to building a personal PM copilot
 
+### AI Agents & Infrastructure
+
+- [Operator OS](https://github.com/vsauter/operator-os) by [@vsauter](https://github.com/vsauter) — Operating system for AI agents
+- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) by [@VoltAgent](https://github.com/VoltAgent) — Community-curated agent skills
+- [Retain](https://github.com/BayramAnnakov/retain) by [@BayramAnnakov](https://github.com/BayramAnnakov) — AI memory and context retention
+- [Remember Me AI](https://github.com/merchantmoh-debug/Remember-Me-AI) by [@merchantmoh-debug](https://github.com/merchantmoh-debug) — Persistent AI memory systems
+- [LLMNet](https://github.com/skorotkiewicz/llmnet) by [@skorotkiewicz](https://github.com/skorotkiewicz) — Decentralized LLM networking
+- [LangChain](https://github.com/langchain-ai/langchain) by [@langchain-ai](https://github.com/langchain-ai) — Framework for building LLM applications
+- [Ollama](https://github.com/ollama/ollama) by [@ollama](https://github.com/ollama) — Run LLMs locally
+- [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) by [@OpenInterpreter](https://github.com/OpenInterpreter) — Natural language interface for computers
+
 ### Related Topics
 
 - **Product Management**: [Silicon Valley Product Group](https://www.svpg.com/) — The definitive guide to modern product operating models
@@ -483,4 +509,4 @@ If you find this useful, please star the repository to help others discover it!
 
 _These materials reflect how I approach product work in practice and are shared for reference._
 
-**Last updated**: 2026-01-25
+**Last updated**: 2026-02-19
