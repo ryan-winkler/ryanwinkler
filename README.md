@@ -481,6 +481,7 @@ This repository is part of a broader product management community. Recommended r
 - [LangChain](https://github.com/langchain-ai/langchain) by [@langchain-ai](https://github.com/langchain-ai) — Framework for building LLM applications
 - [Ollama](https://github.com/ollama/ollama) by [@ollama](https://github.com/ollama) — Run LLMs locally
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) by [@OpenInterpreter](https://github.com/OpenInterpreter) — Natural language interface for computers
+- [gogcli](https://github.com/steipete/gogcli) by [@steipete](https://github.com/steipete) — Google Suite CLI: Gmail, Calendar, Drive, Contacts
 
 ### Related Topics
 
