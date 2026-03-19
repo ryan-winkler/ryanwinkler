@@ -24,3 +24,7 @@ __pycache__/
 NOTES.md
 TODO.md
 SCRATCH.md
+
+# Internal workflow artifacts (keep private)
+.planning/
+AGENTS.md

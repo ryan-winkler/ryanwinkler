@@ -180,9 +180,9 @@ By the end of this runbook, you should have:
 
 ## Related
 
-- [PRIORITISATION_SYSTEM.md](../PRIORITISATION_SYSTEM.md) - Prioritization framework
-- [workflows/new-feature.md](../workflows/new-feature.md) - Feature development workflow
-- [templates/template_rice_drice.md](../templates/template_rice_drice.md) - Scoring template
+- [PRIORITISATION_SYSTEM.md](../../core/PRIORITISATION_SYSTEM.md) - Prioritization framework
+- [workflows/new-feature.md](../../workflows/new-feature.md) - Feature development workflow
+- [templates/template_rice_drice.md](../../templates/template_rice_drice.md) - Scoring template
 - `/roadmap` command - Roadmap generation
 - `/rice-score` command - Prioritization scoring
 

@@ -296,7 +296,7 @@ By the end of this runbook, you should have:
 
 ## Related
 
-- [AI_IN_PRODUCTION.md](../../AI_IN_PRODUCTION.md) - AI production principles
+- [AI_IN_PRODUCTION.md](../../core/AI_IN_PRODUCTION.md) - AI production principles
 - [workflows/ai-feature-launch.md](../../workflows/ai-feature-launch.md) - Full AI launch workflow
 - `/ai-guardrails` command - Guardrails definition
 - `/ai-review` command - Production readiness review

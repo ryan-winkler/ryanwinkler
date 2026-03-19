@@ -184,6 +184,34 @@ Some friction points affect trust more than others:
 - Reliability problems
 - Unclear or misleading communication
 
+## AI Evaluation in Production
+
+This is not a branded framework. It is the working pattern I use when an AI feature moves from demo mode into live use.
+
+### What to evaluate
+
+- **Real inputs**: Use live or representative conversations, requests, and edge cases
+- **Escalation behavior**: Define when the system should hand off instead of improvising
+- **Failure visibility**: Make sure silent failure is visible to users and operators
+- **Quality thresholds**: Agree upfront on what good enough looks like
+- **Fallback paths**: Keep a reviewable, reversible path when the model is wrong
+- **Learning loop**: Feed edge cases, incident patterns, and docs gaps back into the system
+
+### Practical rules
+
+- Do not evaluate only on happy-path prompts
+- Keep routing, handoff, and refusal behavior explicit
+- Track the difference between an impressive answer and a useful answer
+- Treat adoption as a trust problem as much as a feature problem
+- Update prompts, policies, and knowledge artifacts together
+
+### What this helps avoid
+
+- over-confident outputs that should have escalated
+- demos that collapse in live traffic
+- policy drift between teams
+- AI features that feel clever but never become dependable
+
 ## Four Risks Framework
 
 From Marty Cagan (SVPG). See [The Four Big Risks](https://svpg.com/four-big-risks/).
@@ -205,59 +233,3 @@ Every product faces four types of risk:
 **Business Viability Risk**: Does this work for our business?
 
 - Validate: Financial modeling, strategic alignment, operational assessment
-
-## LNO Framework (Leverage, Neutral, Overhead)
-
-Created by Shreyas Doshi. See the [LNO Framework Guide on Coda](https://coda.io/@shreyas/lno-framework).
-
-Categorize work by its impact on future velocity:
-
-**Leverage**: Makes future work easier
-
-- Platform capabilities
-- Reusable components
-- Automation and tooling
-- Documentation and knowledge
-
-**Neutral**: Delivers value but doesn't change future velocity
-
-- Most feature work
-- Bug fixes
-- Content updates
-
-**Overhead**: Makes future work harder
-
-- Technical debt
-- Complexity without benefit
-- Inconsistent patterns
-- Undocumented systems
-
-**Application**: Aim for a portfolio balance, not just neutral work.
-
-## DHM Framework (Delight, Hard to Copy, Margin-Enhancing)
-
-Created by Gibson Biddle (ex-Netflix). See [How to Define Your Product Strategy](https://medium.com/@gibsonbiddle/intro-to-product-strategy-60bdf72b17e3?sk=7e94b5c6b7e35357359b31e823d6005d&source=friends_link) (Medium).
-
-Evaluate features for strategic value:
-
-**Delight**: Does this create customer delight?
-
-- Exceeds expectations
-- Emotional response
-- Word-of-mouth potential
-
-**Hard to Copy**: Can competitors easily replicate this?
-
-- Unique data or insights
-- Network effects
-- Proprietary technology
-- Operational excellence
-
-**Margin-Enhancing**: Does this improve unit economics?
-
-- Reduces cost to serve
-- Increases willingness to pay
-- Improves retention
-- Enables upsell
-
-**Best features**: Score high on all three dimensions.

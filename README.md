@@ -1,513 +1,99 @@
-# Ryan Winkler — Product Operating System
+# Ryan Winkler — Public Product Operating System
 
-**Website**: [ryanw.eu](https://ryanw.eu)
-> **Product manager based in Dublin, Ireland**  
-> Systematic approach to AI in production, trust-sensitive platforms, and customer signal to decision loops
+**Website**: [ryanw.eu](https://ryanw.eu)  
+**Location**: Dublin, Ireland
 
-[![GitHub stars](https://img.shields.io/github/stars/ryan-winkler/ryanwinkler?style=social)](https://github.com/ryan-winkler/ryanwinkler)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+I’m Ryan Winkler, a Senior Product Manager in Dublin. This repository is the public version of how I work: product frameworks, runbooks, project notes, and reusable templates shaped by trust and compliance work at Zendesk, hands-on AI evaluation work, and the systems I build in public.
 
----
+This is not a full CV. It is the smallest useful public set of artifacts that shows what I am good at, what I keep current, and how I turn product work into something other people can actually reuse.
 
-## 🚀 Quick Start
+## Selected Proof Points
 
-**Browse by topic**:
+| Area | Evidence | Start here |
+| --- | --- | --- |
+| Trust and compliance | Built a Compliance Agreements platform at Zendesk that cut turnaround from roughly 30 days to 48 business hours | [docs/PROOF_NOTES.md#compliance-agreements-turnaround](docs/PROOF_NOTES.md#compliance-agreements-turnaround) |
+| Reliability and customer trust | Improved reliability and reduced repeat complaints on a trust-sensitive transparency surface | [docs/PROOF_NOTES.md#access-logs-reliability-and-trust](docs/PROOF_NOTES.md#access-logs-reliability-and-trust) |
+| Internal platforms and developer flow | Helped scale an internal platform used across 40+ engineering teams and introduced a micro-frontend approach that increased contributing PRs by 135% | [docs/PROOF_NOTES.md#internal-platform-adoption-and-contribution-flow](docs/PROOF_NOTES.md#internal-platform-adoption-and-contribution-flow) |
+| AI evaluation in production | In a short HiveNet contract, reviewed real Intercom Fin conversations, tuned escalation paths, tagged edge cases, and set quality thresholds | [docs/PROOF_NOTES.md#ai-evaluation-in-production](docs/PROOF_NOTES.md#ai-evaluation-in-production) |
 
-- [AI in Production](#ai-in-production) — Guardrails, observability, safety
-- [Product Frameworks](#key-frameworks) — RICE, DDD, KCS, Customer Journey
-- [Runbooks](#runbooks-procedures) — Repeatable procedures
-- [Insights](#product-insights) — Patterns from shipped work
-- [Templates](#templates-tools) — PRD, RFC, incident review
+Short public context for those metrics lives in [docs/PROOF_NOTES.md](docs/PROOF_NOTES.md).
 
-**Search content**:
+## Call Me When
 
-```bash
-# Find AI-related content
-grep -r "guardrails" runbooks/ insights/
+- trust, compliance, or policy work needs to become clearer inside the product
+- an internal platform or developer workflow needs better ownership, structure, or adoption
+- AI needs real evaluation, fallback paths, and quality thresholds instead of demo language
+- a local-first or operationally messy system needs clearer boundaries and better day-two behavior
 
-# Search for prioritization frameworks
-grep -r "RICE" knowledge/ templates/
+## What Is Current
 
-# Find customer research patterns
-grep -r "customer" insights/ workflows/
-```
+| System | Status | Why it matters now |
+| --- | --- | --- |
+| [Meitheal](projects/meitheal.md) | Active | A Home Assistant-native, local-first execution hub that makes DDD, KCS, and human-plus-agent workflows visible inside a real system |
+| [Coolock Village Forge](projects/coolock-village-forge.md) | Active | A civic coordination site that keeps clarity, search, accessibility, and public trust tied to real local use |
+| [AI gateway tooling notes](projects/moltis-zeroClaw.md) | Current / deprecated / emerging | Moltis is the live AI gateway. ZeroClaw is deprecated as of March 2026. Nemoclaw is part of the naming thread around what may come next, but it is not the canonical live system today |
 
-**For hiring managers**: Start with [For Hiring Managers](#for-hiring-managers) ↓
+## Start Here
 
----
+| If you want to... | Start here |
+| --- | --- |
+| Get the current overview | [START_HERE.md](START_HERE.md) |
+| See what I am focused on now | [NOW.md](NOW.md) |
+| Understand how I work | [core/HOW_I_WORK.md](core/HOW_I_WORK.md) |
+| See how I turn signal into decisions | [core/SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) |
+| Read the public project notes | [projects/README.md](projects/README.md) |
+| Borrow the frameworks and templates | [knowledge/frameworks.md](knowledge/frameworks.md), [templates/](templates/), [runbooks/](runbooks/) |
+| Browse the full power-user index | [index/README.md](index/README.md) |
 
-## 📊 Repository Stats
+## What You Can Reuse
 
-- **25+ Templates** — PRD, RFC, runbooks, incident reviews
-- **7 Frameworks** — RICE, DDD, KCS, Customer Journey, LNO, DHM, GEM
-- **3 Workflows** — Feature development, AI launch, customer research
-- **2 Runbooks** — Roadmap planning, AI production readiness
-- **2 Insights** — Real patterns from shipped work
+### Operating frameworks
 
----
+- [How I Work](core/HOW_I_WORK.md)
+- [AI in Production](core/AI_IN_PRODUCTION.md)
+- [Signal to Decision](core/SIGNAL_TO_DECISION.md)
+- [Prioritisation System](core/PRIORITISATION_SYSTEM.md)
+- [Domain Map](core/DOMAIN_MAP.md)
+- [Frameworks Reference](knowledge/frameworks.md)
 
-## 📁 Repository Structure
+### Delivery assets
 
-```text
-ryanwinkler/
-
-├── 📘 Core Documents          # Start here
-│   ├── HOW_I_WORK.md         # Operating principles
-│   ├── AI_IN_PRODUCTION.md   # AI production framework
-│   ├── PRIORITISATION_SYSTEM.md
-│   └── SIGNAL_TO_DECISION.md
-│
-├── 📚 Knowledge Base          # Frameworks & insights
-│   ├── knowledge/            # PM frameworks (RICE, DDD, KCS)
-│   ├── insights/             # Patterns from shipped work
-│   │   └── patterns/         # Searchable insights
-│   └── context/              # Domain knowledge
-│
-├── 🔧 Operational Systems     # How to execute
-│   ├── runbooks/             # Repeatable procedures
-│   │   ├── product/          # Roadmap planning
-│   │   └── ai/               # AI production readiness
-│   ├── workflows/            # End-to-end processes
-│   └── templates/            # Document templates
-│
-├── 📊 Active Work             # Track & execute
-│   ├── tracker/              # Signals, scores, incidents
-│   ├── projects/             # PRDs and specs
-│   └── research/             # Customer research
-│
-└── 🧠 Memory & Learning       # Continuous improvement
-    └── memory/               # Decisions, patterns, learnings
-```
-
----
-
-## 👔 For Hiring Managers <a id="for-hiring-managers"></a>
-
-### Evaluating for **AI Product / AI Platform**?
-
-**Read**:
-
-- [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) — My framework for AI in production
-- [runbooks/ai/production-readiness-check.md](runbooks/ai/production-readiness-check.md) — Pre-launch checklist
-- [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) — Why guardrails matter
-
-**See**:
-
-- Guardrails framework (handoff, refusal, confidence, policy)
-- Observability requirements (metrics, logs, alerts)
-- Failure mode analysis and rollback procedures
-
-**Search**:
-
-```bash
-grep -r "guardrails\|observability\|rollback" runbooks/ insights/
-```
-
----
-
-### Evaluating for **Trust / Risk / Compliance / Safety**?
-
-**Read**:
-
-- [ARCHITECTURE.md](core/ARCHITECTURE.md) — System boundaries and failure modes
-- [DECISIONS.md](core/DECISIONS.md) — Decision log with rationale
-- [templates/template_incident_review.md](templates/template_incident_review.md) — Postmortem template
-
-**See**:
-
-- Blameless incident review process
-- Risk assessment and mitigation
-- Explicit ownership and escalation paths
-
-**Search**:
-
-```bash
-grep -r "risk\|compliance\|incident" templates/ runbooks/
-```
-
----
-
-### Evaluating for **Internal Platforms / Developer Tooling**?
-
-**Read**:
-
-- [SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md) — Signal intake and triage
-- [DOMAIN_MAP.md](core/DOMAIN_MAP.md) — Bounded contexts and ownership
-- [templates/template_rfc.md](templates/template_rfc.md) — RFC template
-
-**See**:
-
-- Domain-driven design in practice
-- Signal quality assessment
-- Knowledge-centered service approach
-
-**Search**:
-
-```bash
-grep -r "domain\|signal\|RFC" knowledge/ templates/
-```
-
----
-
-### Evaluating for **Customer-Facing Product**?
-
-**Read**:
-
-- [HOW_I_WORK.md](core/HOW_I_WORK.md) — Customer-centric principles
-- [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) — Customer journey focus
-- [insights/patterns/sync-delays-break-trust.md](insights/patterns/sync-delays-break-trust.md) — Trust patterns
-
-**See**:
-
-- End-to-end customer journey thinking
-- Evidence-based prioritization
-- Customer research methodology
-
-**Search**:
-
-```bash
-grep -r "customer\|journey\|trust" insights/ workflows/
-```
-
----
-
-## 🎯 Key Frameworks <a id="key-frameworks"></a>
-
-### RICE / DRICE Prioritization
-
-Systematic scoring for feature prioritization:
-
-- **RICE** = (Reach × Impact × Confidence) / Effort
-- **DRICE** adds Dependencies and Risk for complex work
-
-📖 [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) | 📝 [Template](templates/template_rice_drice.md)
-
----
-
-### Domain Driven Design
-
-Clear boundaries, explicit ownership, ubiquitous language:
-
-- Bounded contexts define system boundaries
-- Ownership is explicit, not shared
-- Language is consistent across teams and tools
-
-📖 [DOMAIN_MAP.md](core/DOMAIN_MAP.md) | 📖 [ARCHITECTURE.md](core/ARCHITECTURE.md)
-
----
-
-### Knowledge-Centered Service
-
-Knowledge as a product surface:
-
-- Capture in the flow of work
-- Signal quality drives decisions
-- Documentation is a first-class concern
-
-📖 [SIGNAL_SCORECARD.md](core/SIGNAL_SCORECARD.md) | 📁 [runbooks/](runbooks/)
-
----
-
-### Customer Journey Mapping
-
-End-to-end experience thinking:
-
-- Map friction points by journey stage
-- Assess severity and frequency
-- Prioritize trust-impacting issues
-
-📖 [PRIORITISATION_SYSTEM.md](core/PRIORITISATION_SYSTEM.md) | 📖 [knowledge/frameworks.md](knowledge/frameworks.md)
-
----
-
-## 🔧 Runbooks & Procedures <a id="runbooks-procedures"></a>
-
-**If you do it twice, document it.**
-
-- [Quarterly Roadmap Planning](runbooks/product/quarterly-roadmap-planning.md) — 6-week planning process
-- [AI Production Readiness Check](runbooks/ai/production-readiness-check.md) — Pre-launch checklist
-- [Runbook Template](templates/template_runbook.md) — Create your own
-
-**Search runbooks**:
-
-```bash
-grep -r "roadmap\|planning\|AI\|production" runbooks/
-```
-
----
-
-## 💡 Product Insights <a id="product-insights"></a>
-
-**Patterns and learnings from shipped work.**
-
-### Available Insights
-
-- [Sync Delays Break Trust](insights/patterns/sync-delays-break-trust.md) — Real-time data > features
-- [AI Guardrails Are Non-Negotiable](insights/patterns/ai-guardrails-non-negotiable.md) — Production AI safety
-- [AI Context Engineering](insights/patterns/ai-context-engineering.md) — Managing agent context quality
-- [Personal Copilot Workflow](insights/patterns/personal-copilot-workflow.md) — Automating daily PM operations
-
-**Search insights**:
-
-```bash
-# Find trust-related patterns
-grep -r "trust" insights/
-
-# Find AI-specific insights
-grep -r "AI\|guardrails\|confidence" insights/
-```
-
-**Tags**: `trust`, `data-quality`, `real-time`, `ai`, `guardrails`, `production`, `safety`
-
----
-
-## 📝 Templates & Tools <a id="templates-tools"></a>
-
-### Product Development
-
+- [Quarterly Roadmap Planning](runbooks/product/quarterly-roadmap-planning.md)
+- [AI Production Readiness Check](runbooks/ai/production-readiness-check.md)
 - [PRD Template](templates/template_prd.md)
-- [RICE/DRICE Scoring](templates/template_rice_drice.md)
 - [RFC Template](templates/template_rfc.md)
-
-### Research & Signals
-
-- [Signal Review](templates/template_signal_review.md)
-- [Customer Interview Guide](templates/)
-
-### Incidents & Operations
-
-- [Incident Review](templates/template_incident_review.md)
+- [RICE / DRICE Template](templates/template_rice_drice.md)
+- [Signal Review Template](templates/template_signal_review.md)
+- [Incident Review Template](templates/template_incident_review.md)
+- [AI Guardrails Template](templates/template_ai_guardrails.md)
 - [Runbook Template](templates/template_runbook.md)
 
-### AI Features
+## If You Are Evaluating Fit
 
-- [AI Guardrails](templates/template_ai_guardrails.md)
-- [Production Readiness Checklist](runbooks/ai/production-readiness-check.md)
+| Angle | Read this |
+| --- | --- |
+| AI product and evaluation | [core/AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md), [projects/moltis-zeroClaw.md](projects/moltis-zeroClaw.md) |
+| Internal platforms and developer tooling | [core/SIGNAL_TO_DECISION.md](core/SIGNAL_TO_DECISION.md), [core/DOMAIN_MAP.md](core/DOMAIN_MAP.md), [projects/meitheal.md](projects/meitheal.md) |
+| Trust, risk, and compliance | [core/ARCHITECTURE.md](core/ARCHITECTURE.md), [insights/patterns/ai-guardrails-non-negotiable.md](insights/patterns/ai-guardrails-non-negotiable.md) |
+| Customer signal and operational clarity | [core/HOW_I_WORK.md](core/HOW_I_WORK.md), [runbooks/product/quarterly-roadmap-planning.md](runbooks/product/quarterly-roadmap-planning.md) |
 
-**Search templates**:
+## Selected References
 
-```bash
-grep -r "template" templates/
-```
+These are the outside resources I come back to most often and have kept intentionally small.
 
----
+- [RICE: Simple Prioritization for Product Managers](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/)
+- [DomainDrivenDesign](https://martinfowler.com/bliki/DomainDrivenDesign.html) by Martin Fowler
+- [KCS v6 Methodology](https://www.serviceinnovation.org/kcs/)
+- [The Four Big Risks](https://www.svpg.com/four-big-risks/)
+- [Introducing DRICE](https://www.lennysnewsletter.com/p/introducing-drice-a-modern-prioritization)
 
-## 🔄 Workflows
+## Connect
 
-**End-to-end processes for complex work.**
+- [ryanw.eu](https://ryanw.eu)
+- [ryanw.eu/llms.txt](https://ryanw.eu/llms.txt)
+- [LinkedIn](https://www.linkedin.com/in/ryan-winkler-dublin-pm/)
+- [GitHub](https://github.com/ryan-winkler)
 
-- [New Feature Development](workflows/new-feature.md) — Signal to shipped feature
-- [AI Feature Launch](workflows/ai-feature-launch.md) — Safe AI production launch
+_These materials reflect how I approach product work in practice and are kept public because useful systems should be shareable._
 
-**Search workflows**:
-
-```bash
-grep -r "workflow\|process" workflows/
-```
-
----
-
-## 🤖 AI in Production <a id="ai-in-production"></a>
-
-My approach to AI features:
-
-### Guardrails (non-negotiable)
-
-- **Handoff** — when to escalate to humans
-- **Refusal** — safe handling of out-of-scope requests
-- **Confidence** — surface uncertainty to users
-- **Policy** — enforce compliance and safety
-
-### Observability
-
-- Input quality, output quality, user behavior, system behavior
-- Metrics, logs, alerts from day one
-- Dashboards for monitoring
-
-### Failure Modes
-
-- Over-confident answers on uncertain inputs
-- Silent failures that look like success
-- Policy gaps and inconsistencies
-- Feedback loops amplifying bad outputs
-
-### Rollback
-
-- Kill switch tested before launch
-- Safe defaults when AI is disabled
-- Clear triggers and ownership
-
-📖 [AI_IN_PRODUCTION.md](core/AI_IN_PRODUCTION.md) | 📁 [runbooks/ai/](runbooks/ai/)
-
----
-
-## 🛠️ Projects
-
-### ZeroClaw — Personal AI Agent
-
-A self-hosted AI agent built in Rust, running as a systemd service on my workstation. ZeroClaw is how I dogfood the AI production principles documented in this repository.
-
-- **Triple fallback chain**: Gemini → OpenAI → Ollama (local GPU)
-- **Channels**: Terminal CLI (`ask "..."`) + Telegram bot
-- **Reliability**: Systemd-managed with auto-restart, health monitoring, and structured memory
-- **Guardrails in practice**: Confidence thresholds, provider failover, context hygiene
-
-> This is the live implementation of my [AI in Production](core/AI_IN_PRODUCTION.md) framework — guardrails, observability, and failure modes applied to a real system.
-
----
-
-## 🔍 How to Search This Repository
-
-### By Topic
-
-```bash
-# AI and production
-grep -r "AI\|guardrails\|production" runbooks/ insights/
-
-# Prioritization and frameworks
-grep -r "RICE\|priorit" knowledge/ templates/
-
-# Customer research
-grep -r "customer\|interview\|research" workflows/ templates/
-
-# Trust and safety
-grep -r "trust\|safety\|risk" insights/ runbooks/
-
-# Incidents and operations
-grep -r "incident\|postmortem\|runbook" templates/ runbooks/
-```
-
-### By File Type
-
-```bash
-# All runbooks
-find runbooks/ -name "*.md"
-
-# All templates
-find templates/ -name "*.md"
-
-# All insights
-find insights/ -name "*.md"
-```
-
-### By Tag
-
-Common tags: `ai`, `production`, `guardrails`, `trust`, `customer`, `prioritization`, `incident`, `runbook`
-
----
-
-## 🧑‍💼 How I Work
-
-**Core principles**:
-
-- Everything is a signal
-- Write decisions down
-- Clarify boundaries early
-- Prefer evidence over opinion
-- Set feedback loops before shipping
-
-**Operational habits**:
-
-- Runbooks for repeatable work
-- Meetings for coordination, not discovery
-- Async-first communication
-- Blameless postmortems
-- Knowledge capture in the flow of work
-
-📖 [HOW_I_WORK.md](core/HOW_I_WORK.md)
-
----
-
-## 👤 About Me
-
-**Ryan Winkler**  
-Senior Product Manager, Dublin, Ireland
-
-I build customer-facing and internal systems, including AI-enabled workflows, trust-sensitive platforms, and tooling for decision-making in production. I turn customer conversations and operational signal into clear decisions and shipped systems.
-
-**Experience**:
-
-- Zendesk (trust, transparency, compliance surfaces)
-- Intercom Fin (AI in production, live environment)
-
-**Focus areas**:
-
-- AI in production (guardrails, observability, safety)
-- Trust-sensitive platforms (compliance, risk, reliability)
-- Customer signal to decision loops (KCS, DDD, journey mapping)
-
----
-
-## 🔗 Connect
-
-- **Website**: [ryanw.eu](https://ryanw.eu)
-- **Machine-readable profile**: [ryanw.eu/llms.txt](https://ryanw.eu/llms.txt)
-- **LinkedIn**: [ryan-winkler-dublin-pm](https://www.linkedin.com/in/ryan-winkler-dublin-pm/)
-- **X**: [@ryanw_product](https://x.com/ryanw_product)
-- **GitHub**: [ryan-winkler](https://github.com/ryan-winkler)
-- **Wellfound**: [ryanw-eu-product-manager-dublin](https://wellfound.com/u/ryanw-eu-product-manager-dublin)
-- **Crunchbase**: [ryan-winkler-b002](https://www.crunchbase.com/person/ryan-winkler-b002)
-- **Wikidata**: [Q137838541](https://www.wikidata.org/wiki/Q137838541)
-- **Clay**: [Ryan-Winkler-Product-Manager](https://clay.earth/profile/Ryan-Winkler-Product-Manager)
-
----
-
-## 📚 Resources
-
-This repository is part of a broader product management community. Recommended resources:
-
-### Product Management Collections
-
-- [Awesome Product Management](https://github.com/dend/awesome-product-management) by [@dend](https://github.com/dend) — Curated list of PM resources, tools, and articles
-- [Awesome Product Manager](https://github.com/yuhenobi/awesome-product-manager) by [@yuhenobi](https://github.com/yuhenobi) — Curated resources for product managers to learn and grow
-- [Open Product Management](https://github.com/ProductHired/open-product-management) by [@ProductHired](https://github.com/ProductHired) — PM advice for technical people
-- [Lenny's Podcast Transcripts](https://github.com/ChatPRD/lennys-podcast-transcripts) by [@ChatPRD](https://github.com/ChatPRD) — Searchable transcripts from Lenny's Podcast
-- [LogChimp](https://github.com/logchimp/logchimp) by [@logchimp](https://github.com/logchimp) — Open-source customer feedback and product roadmap tool
-
-### Claude Code & Prompts
-
-- [Custom Claude Commands](https://github.com/lehen20/custom-claude-commands) by [@lehen20](https://github.com/lehen20) — 22 ready-to-use slash commands for code, security, and project management
-- [Get Shit Done](https://github.com/glittercowboy/get-shit-done) by [@glittercowboy](https://github.com/glittercowboy) — Context engineering and spec-driven development system
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) — Claude AI customization and workflows
-- [Ultimate Claude Code Masterclass](https://www.productmanagement.ai/p/ultimate-claude-code-masterclass) by Product Faculty — Guide to building a personal PM copilot
-
-### AI Agents & Infrastructure
-
-- [Operator OS](https://github.com/vsauter/operator-os) by [@vsauter](https://github.com/vsauter) — Operating system for AI agents
-- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) by [@VoltAgent](https://github.com/VoltAgent) — Community-curated agent skills
-- [Retain](https://github.com/BayramAnnakov/retain) by [@BayramAnnakov](https://github.com/BayramAnnakov) — AI memory and context retention
-- [Remember Me AI](https://github.com/merchantmoh-debug/Remember-Me-AI) by [@merchantmoh-debug](https://github.com/merchantmoh-debug) — Persistent AI memory systems
-- [LLMNet](https://github.com/skorotkiewicz/llmnet) by [@skorotkiewicz](https://github.com/skorotkiewicz) — Decentralized LLM networking
-- [LangChain](https://github.com/langchain-ai/langchain) by [@langchain-ai](https://github.com/langchain-ai) — Framework for building LLM applications
-- [Ollama](https://github.com/ollama/ollama) by [@ollama](https://github.com/ollama) — Run LLMs locally
-- [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) by [@OpenInterpreter](https://github.com/OpenInterpreter) — Natural language interface for computers
-- [gogcli](https://github.com/steipete/gogcli) by [@steipete](https://github.com/steipete) — Google Suite CLI: Gmail, Calendar, Drive, Contacts
-
-### Related Topics
-
-- **Product Management**: [Silicon Valley Product Group](https://www.svpg.com/) — The definitive guide to modern product operating models
-- **AI in Production**: [Applied ML](https://github.com/eugeneyan/applied-ml) by [@eugeneyan](https://github.com/eugeneyan) — Curated papers and blogs on production ML systems
-- **Domain Driven Design**: [Awesome DDD](https://github.com/heynickc/awesome-ddd) by [@heynickc](https://github.com/heynickc) — Comprehensive collection of DDD resources
-- **Knowledge-Centered Service**: [KCS v6 Methodology](https://www.serviceinnovation.org/kcs/) — The official standard by the Consortium for Service Innovation
-- **Trust & Safety**: [Integrity Institute](https://integrityinstitute.org/) — Member-powered think tank of platform integrity professionals
-- **Operational Excellence**: [Google SRE Books](https://sre.google/books/) — The industry standard for reliability and production operations
-
----
-
-## 📄 License
-
-This work is shared under the [Creative Commons Attribution 4.0 International License](LICENSE).
-
-You're welcome to use these frameworks, templates, and approaches in your own work. Attribution appreciated but not required.
-
----
-
-## 🌟 Star This Repository
-
-If you find this useful, please star the repository to help others discover it!
-
----
-
-_These materials reflect how I approach product work in practice and are shared for reference._
-
-**Last updated**: 2026-02-19
+**Last updated**: 2026-03-19

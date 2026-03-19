@@ -175,7 +175,7 @@ ryanwinkler/
 
 - ✅ All links work and point to correct files
 - ✅ Consistent voice and tone throughout
-- ✅ No AI-generated fluff or buzzwords
+- ✅ No filler or buzzwords
 - ✅ Real examples from product work
 - ✅ Clear navigation for hiring managers
 - ✅ Professional presentation

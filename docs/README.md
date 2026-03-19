@@ -1,10 +1,9 @@
 # Documentation
 
-Internal documentation and notes about this repository.
+Maintenance notes for this repository.
 
 ## Files
 
-- **PORTFOLIO_COMPLETE.md** — Portfolio completion summary and checklist
-- **OPTIMIZATION_COMPLETE.md** — SEO and optimization summary
-
-These files are for reference and maintenance purposes.
+- [PORTFOLIO_COMPLETE.md](PORTFOLIO_COMPLETE.md) — completion summary and checklist for the public Product OS refresh
+- [PROOF_NOTES.md](PROOF_NOTES.md) — short context notes for the public proof points used in `README.md`
+- [SEARCH.md](SEARCH.md) — quick `rg` patterns for finding the main themes in the repo

@@ -1,6 +1,8 @@
-# Topic Index
+# Power-User Index
 
-Browse content by topic. Each section links to relevant documents, templates, and insights.
+Browse content by topic when you already know the shape of the repo.
+
+If you want the shortest recruiter path, start with [README.md](../README.md).
 
 ---
 
@@ -165,7 +167,7 @@ grep -r "incident\|postmortem\|review" templates/ runbooks/
 
 **Runbooks**:
 
-- [Runbook README](../runbooks/README.md) — Runbook system
+- [Runbooks README](../runbooks/README.md) — Runbook system
 
 **Insights**:
 
@@ -219,91 +221,13 @@ grep -r "strategy\|roadmap\|planning" runbooks/ templates/
 
 **Runbooks**:
 
-- [Runbook README](../runbooks/README.md)
 - [Quarterly Roadmap Planning](../runbooks/product/quarterly-roadmap-planning.md)
 - [AI Production Readiness Check](../runbooks/ai/production-readiness-check.md)
 
-**Templates**:
-
-- [Runbook Template](../templates/template_runbook.md)
-
 **Search**:
 
 ```bash
-grep -r "runbook\|procedure\|operational" runbooks/ templates/
+grep -r "operat\|runbook\|checklist\|incident" runbooks/ core/ insights/
 ```
 
-**Tags**: `operational`, `runbook`, `procedure`, `repeatability`
-
----
-
-## 📈 Data & Analytics
-
-**Core Documents**:
-
-- [SIGNAL_SCORECARD.md](../core/SIGNAL_SCORECARD.md) — Signal quality metrics
-
-**Insights**:
-
-- [Sync Delays Break Trust](../insights/patterns/sync-delays-break-trust.md) — Data quality patterns
-
-**Search**:
-
-```bash
-grep -r "data\|metrics\|analytics\|measurement" insights/ knowledge/
-```
-
-**Tags**: `data`, `metrics`, `analytics`, `measurement`
-
----
-
-## 🔍 How to Use This Index
-
-### Browse by Topic
-
-Click on any topic above to see related content.
-
-### Search Across Topics
-
-```bash
-# Find all AI-related content
-grep -r "AI" runbooks/ insights/ templates/ knowledge/
-
-# Find all customer-related content
-grep -r "customer" workflows/ insights/ templates/
-
-# Find all trust-related content
-grep -r "trust" insights/ runbooks/
-```
-
-### Search by Tag
-
-Common tags across all content:
-
-- `ai`, `production`, `guardrails`
-- `customer`, `research`, `journey`
-- `trust`, `safety`, `risk`
-- `prioritization`, `rice`, `drice`
-- `incident`, `postmortem`
-- `runbook`, `procedure`
-- `knowledge`, `kcs`
-
-### Find by File Type
-
-```bash
-# All runbooks
-find ../runbooks/ -name "*.md"
-
-# All templates
-find ../templates/ -name "*.md"
-
-# All insights
-find ../insights/ -name "*.md"
-
-# All workflows
-find ../workflows/ -name "*.md"
-```
-
----
-
-**Last updated**: 2026-01-25
+**Tags**: `operations`, `runbook`, `execution`, `reliability`
