@@ -8,7 +8,7 @@ Use `rg` from the repo root.
 
 ```bash
 # Current public story, including deprecated AI tooling names
-rg -n "Dublin|Zendesk|HiveNet|Meitheal|Moltis|ZeroClaw" README.md START_HERE.md NOW.md projects/
+rg -n "Dublin|Zendesk|HiveNet|Meitheal|Moltis|ZeroClaw|Nemoclaw" README.md START_HERE.md NOW.md CHANGELOG.md projects/
 
 # AI and evaluation
 rg -n "AI|guardrails|quality|fallback|escalation" core/ knowledge/ runbooks/ insights/ projects/
@@ -21,6 +21,9 @@ rg -n "trust|risk|compliance|incident|policy" core/ insights/ runbooks/
 
 # Signal, feedback loops, and KCS
 rg -n "signal|feedback|KCS|knowledge" core/ runbooks/ templates/ insights/
+
+# Curated outside tools and reading
+rg -n "Get Shit Done|Operator OS|Moltis|Ollama|Integrity Institute" BOOKMARKS.md
 ```
 
 ## Browse by area
@@ -32,6 +35,13 @@ rg --files projects
 rg --files runbooks
 rg --files templates
 rg --files workflows
+```
+
+## Follow what changed
+
+```bash
+rg -n "^## \\[" CHANGELOG.md
+rg -n "Meitheal|Coolock|Moltis|ZeroClaw|Nemoclaw" NOW.md README.md projects/
 ```
 
 ## Find the public project notes

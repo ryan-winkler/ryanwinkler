@@ -1,12 +1,12 @@
-# Power-User Index
+# Browse by Topic
 
-Browse content by topic when you already know the shape of the repo.
+Use this page when you already know the kind of material you want.
 
-If you want the shortest recruiter path, start with [README.md](../README.md).
+If you want the shortest route through the repo, start with [README.md](../README.md).
 
 ---
 
-## 🤖 AI in Production
+## AI in Production
 
 **Core Documents**:
 
@@ -28,14 +28,14 @@ If you want the shortest recruiter path, start with [README.md](../README.md).
 **Search**:
 
 ```bash
-grep -r "AI\|guardrails\|production\|observability" runbooks/ insights/ templates/
+rg -n "AI|guardrails|production|observability" runbooks/ insights/ templates/
 ```
 
 **Tags**: `ai`, `production`, `guardrails`, `observability`, `safety`, `rollback`
 
 ---
 
-## 📊 Product Prioritization
+## Product Prioritization
 
 **Core Documents**:
 
@@ -54,14 +54,14 @@ grep -r "AI\|guardrails\|production\|observability" runbooks/ insights/ template
 **Search**:
 
 ```bash
-grep -r "RICE\|DRICE\|priorit\|scoring" knowledge/ templates/ runbooks/
+rg -n "RICE|DRICE|priorit|scoring" knowledge/ templates/ runbooks/
 ```
 
 **Tags**: `prioritization`, `rice`, `drice`, `scoring`, `roadmap`
 
 ---
 
-## 👥 Customer Research
+## Customer Research
 
 **Core Documents**:
 
@@ -79,14 +79,14 @@ grep -r "RICE\|DRICE\|priorit\|scoring" knowledge/ templates/ runbooks/
 **Search**:
 
 ```bash
-grep -r "customer\|interview\|research\|journey" workflows/ templates/ insights/
+rg -n "customer|interview|research|journey" workflows/ templates/ insights/
 ```
 
 **Tags**: `customer`, `research`, `interview`, `journey`, `signal`
 
 ---
 
-## 🏗️ Domain Driven Design
+## Domain Driven Design
 
 **Core Documents**:
 
@@ -101,14 +101,14 @@ grep -r "customer\|interview\|research\|journey" workflows/ templates/ insights/
 **Search**:
 
 ```bash
-grep -r "domain\|bounded\|context\|ownership" knowledge/ templates/
+rg -n "domain|bounded|context|ownership" knowledge/ templates/
 ```
 
 **Tags**: `ddd`, `domain`, `architecture`, `boundaries`, `ownership`
 
 ---
 
-## 🔒 Trust & Safety
+## Trust & Safety
 
 **Core Documents**:
 
@@ -127,14 +127,14 @@ grep -r "domain\|bounded\|context\|ownership" knowledge/ templates/
 **Search**:
 
 ```bash
-grep -r "trust\|safety\|risk\|compliance" insights/ templates/ runbooks/
+rg -n "trust|safety|risk|compliance" insights/ templates/ runbooks/
 ```
 
 **Tags**: `trust`, `safety`, `risk`, `compliance`, `incident`
 
 ---
 
-## 🚨 Incident Response
+## Incident Response
 
 **Core Documents**:
 
@@ -151,14 +151,14 @@ grep -r "trust\|safety\|risk\|compliance" insights/ templates/ runbooks/
 **Search**:
 
 ```bash
-grep -r "incident\|postmortem\|review" templates/ runbooks/
+rg -n "incident|postmortem|review" templates/ runbooks/
 ```
 
 **Tags**: `incident`, `postmortem`, `review`, `response`
 
 ---
 
-## 📖 Knowledge Management
+## Knowledge Management
 
 **Core Documents**:
 
@@ -180,14 +180,14 @@ grep -r "incident\|postmortem\|review" templates/ runbooks/
 **Search**:
 
 ```bash
-grep -r "knowledge\|KCS\|runbook\|insight" knowledge/ runbooks/ insights/
+rg -n "knowledge|KCS|runbook|insight" knowledge/ runbooks/ insights/
 ```
 
 **Tags**: `knowledge`, `kcs`, `runbook`, `insight`, `documentation`
 
 ---
 
-## 🎯 Product Strategy
+## Product Strategy
 
 **Core Documents**:
 
@@ -206,14 +206,14 @@ grep -r "knowledge\|KCS\|runbook\|insight" knowledge/ runbooks/ insights/
 **Search**:
 
 ```bash
-grep -r "strategy\|roadmap\|planning" runbooks/ templates/
+rg -n "strategy|roadmap|planning" runbooks/ templates/
 ```
 
 **Tags**: `strategy`, `roadmap`, `planning`, `prd`
 
 ---
 
-## 🔄 Operational Excellence
+## Operational Excellence
 
 **Core Documents**:
 
@@ -227,7 +227,7 @@ grep -r "strategy\|roadmap\|planning" runbooks/ templates/
 **Search**:
 
 ```bash
-grep -r "operat\|runbook\|checklist\|incident" runbooks/ core/ insights/
+rg -n "operat|runbook|checklist|incident" runbooks/ core/ insights/
 ```
 
 **Tags**: `operations`, `runbook`, `execution`, `reliability`

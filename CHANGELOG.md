@@ -1,6 +1,25 @@
 # Changelog
 
-All notable changes to this product operating system are documented here.
+All notable changes to this repo are documented here.
+
+## [1.0.1] - 2026-03-19
+
+### Added
+
+- `BOOKMARKS.md` with a short verified shelf of tools and references I still recommend
+- a stronger public project map in `projects/README.md`
+
+### Changed
+
+- rewrote `README.md` as the single public front door for proof, reuse, and current work
+- turned `START_HERE.md` into an intent-based action guide instead of a second README
+- tightened `docs/PROOF_NOTES.md` into compact public case-study notes
+- retitled `index/README.md` to `Browse by Topic` and normalized search examples to `rg`
+- updated `docs/SEARCH.md` and `docs/README.md` to match the public-facing structure
+
+### Removed
+
+- inward-facing portfolio completion notes from the public docs surface
 
 ## [1.0.0] - 2026-01-25
 

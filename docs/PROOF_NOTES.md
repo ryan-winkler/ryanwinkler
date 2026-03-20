@@ -2,32 +2,36 @@
 
 Short public context for the proof points used in [README.md](../README.md).
 
-The numbers here are drawn from Ryan's resume and kept at summary level. The goal is to make the public claims easier to interpret, not to publish internal case studies.
+The numbers here are drawn from my resume and kept at summary level. The goal is to make the public claims easier to interpret, not to publish internal case studies.
 
 ## Compliance Agreements turnaround
 
-- **Context**: Zendesk work on trust and compliance surfaces where policy handling and operational clarity both mattered
-- **Scope**: product work across workflow design, clearer ownership, and delivery coordination
-- **Outcome**: turnaround moved from roughly 30 days to 48 business hours
-- **Related reading**: [core/ARCHITECTURE.md](../core/ARCHITECTURE.md), [core/HOW_I_WORK.md](../core/HOW_I_WORK.md)
+- **Role**: Senior Product Manager at Zendesk
+- **Scope**: Product work across workflow design, clearer ownership, and delivery coordination on trust and compliance surfaces
+- **Constraints**: Policy handling, operational clarity, and cross-functional coordination all mattered at the same time
+- **Outcome**: Turnaround moved from roughly 30 days to 48 business hours
+- **Read next**: [core/ARCHITECTURE.md](../core/ARCHITECTURE.md), [core/HOW_I_WORK.md](../core/HOW_I_WORK.md)
 
 ## Access Logs reliability and trust
 
-- **Context**: customer-facing transparency work where reliability and trust were tightly linked
-- **Scope**: backend re-architecture, product clarity, and day-two reliability thinking
-- **Outcome**: improved reliability and reduced repeat complaints on a trust-sensitive transparency surface
-- **Related reading**: [insights/patterns/sync-delays-break-trust.md](../insights/patterns/sync-delays-break-trust.md), [core/SIGNAL_TO_DECISION.md](../core/SIGNAL_TO_DECISION.md)
+- **Role**: Senior Product Manager at Zendesk
+- **Scope**: Product work across backend re-architecture, clearer customer-facing behavior, and day-two reliability thinking
+- **Constraints**: This was a transparency surface where reliability, clarity, and trust were tightly linked
+- **Outcome**: Improved reliability and reduced repeat complaints on a trust-sensitive transparency surface
+- **Read next**: [insights/patterns/sync-delays-break-trust.md](../insights/patterns/sync-delays-break-trust.md), [core/SIGNAL_TO_DECISION.md](../core/SIGNAL_TO_DECISION.md)
 
 ## Internal platform adoption and contribution flow
 
-- **Context**: internal platform work used across 40+ engineering teams
-- **Scope**: contribution flow, architecture boundaries, and a micro-frontend transition that made more teams able to contribute
-- **Outcome**: contributing PRs increased by 135%
-- **Related reading**: [core/DOMAIN_MAP.md](../core/DOMAIN_MAP.md), [projects/meitheal.md](../projects/meitheal.md)
+- **Role**: Product management on an internal platform used across 40+ engineering teams
+- **Scope**: Contribution flow, architecture boundaries, and a micro-frontend transition that made more teams able to contribute
+- **Constraints**: The work had to improve adoption without turning platform ownership into a bottleneck
+- **Outcome**: Contributing PRs increased by 135%
+- **Read next**: [core/DOMAIN_MAP.md](../core/DOMAIN_MAP.md), [projects/meitheal.md](../projects/meitheal.md)
 
 ## AI evaluation in production
 
-- **Context**: short 2026 HiveNet contract working hands-on with Intercom Fin in a live environment
-- **Scope**: reviewed real conversations, tuned escalation paths, tagged edge cases, and set quality thresholds
-- **Outcome**: sharper judgment about routing, fallback paths, and what actually earns trust after launch
-- **Related reading**: [core/AI_IN_PRODUCTION.md](../core/AI_IN_PRODUCTION.md), [projects/moltis-zeroClaw.md](../projects/moltis-zeroClaw.md)
+- **Role**: Short 2026 HiveNet contract working hands-on with Intercom Fin in a live environment
+- **Scope**: Reviewed real conversations, tuned escalation paths, tagged edge cases, and set quality thresholds
+- **Constraints**: The work had to be grounded in live behavior rather than demo prompts or abstract model claims
+- **Outcome**: Sharper judgment about routing, fallback paths, and what actually earns trust after launch
+- **Read next**: [core/AI_IN_PRODUCTION.md](../core/AI_IN_PRODUCTION.md), [projects/moltis-zeroClaw.md](../projects/moltis-zeroClaw.md)
