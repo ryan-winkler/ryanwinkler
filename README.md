@@ -1,6 +1,6 @@
 # Ryan Winkler — Product Manager in Dublin
 
-**Website**: [ryanw.eu](https://ryanw.eu) | **LinkedIn**: [ryan-winkler-dublin-pm](https://www.linkedin.com/in/ryan-winkler-dublin-pm/) | **GitHub**: [ryan-winkler](https://github.com/ryan-winkler)
+**Website**: [ryanw.eu](https://ryanw.eu) | **LinkedIn**: [ryan-winkler-dublin-pm](https://www.linkedin.com/in/ryan-winkler-dublin-pm/) | **GitHub**: [ryan-winkler](https://github.com/ryan-winkler) | **X**: [ryanw_product](https://x.com/ryanw_product) | **Wellfound**: [ryanw-eu](https://wellfound.com/u/ryanw-eu-product-manager-dublin) | **Clay**: [Ryan-Winkler](https://clay.earth/profile/Ryan-Winkler-Product-Manager) | **llms.txt**: [ryanw.eu/llms.txt](https://ryanw.eu/llms.txt)
 
 This repo is the public working library behind my product work: selected project notes, proof notes, frameworks, runbooks, and templates I actually reuse.
 If you want the narrative version, start with [ryanw.eu](https://ryanw.eu). If you want the working version, start here.
@@ -52,4 +52,4 @@ More context sits in [docs/PROOF_NOTES.md](docs/PROOF_NOTES.md).
 
 _These materials stay public because useful systems should be reusable._
 
-**Last updated**: 2026-03-19
+**Last updated**: 2026-03-24
